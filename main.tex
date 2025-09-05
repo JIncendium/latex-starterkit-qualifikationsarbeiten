@@ -123,8 +123,8 @@ numbers=noendperiod%
  dashed=false%
 ]{biblatex}
 
-\bibliography{bib}
-
+% ausgegraut am 05.09 \bibliography{bib}
+\addbibresource{bib.bib}
 \setlength{\bibitemsep}{1em}
 \DefineBibliographyStrings{ngerman}{andothers = {u.\,a.},}
 
@@ -363,14 +363,14 @@ skipbelow=1\baselineskip,
 \include{chapter6}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\chapter{Anhang Zeug}
 \nocite{*}
-\printbibliography[heading=bibliography]
+\printbibliography
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \appendix
-\chapter{Anhang}
+\chapter{Anhang Interviewtranskripte}
 
 %\includepdf{appendix/anlage3_neu2.pdf}
 
