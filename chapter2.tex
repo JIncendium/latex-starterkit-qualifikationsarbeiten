@@ -11,9 +11,74 @@
 
 \section{Definition des Softwarearchitekturbegriffes}
 
+Der erste Begriff, der für das erste Verständnis benötigt wird, ist die Softwarearchitektur. 
+Die Softwarearchitektur lässt sich nach der wissenschaftlichen Literatur nicht mittels einer etablierten Beschreibung definieren, die allgemeine Geltung besitzt. Eine Annäherung an den Begriff wird daher zunächst über den Weg der Etymologie gewählt.
+
+Der Begriff Softwarearchitektur setzt sich aus den beiden Wörtern Software und Architektur zusammen. Die strikte lexikalische Definition von ersterem lautet nach dem Lexikon der Informatik folgendermaßen: „Unter Software versteht man die Gesamtheit […] der Programme für Rechensysteme.“
+\footnote{Siehe Hans-Jochen Schneider, Lexikon Informatik und Datenverarbeitung, Oldenbourg Verlag, 1998, S. 787}
+Sowie dem Begriff der Architektur, gleichbedeutend mit der Baukunst theoretisch-wissenschaftlicher Ausprägung.\footnote{Siehe Christoph Höcker, Metzler Lexikon antiker Architektur – Sachen und Begriffe, J.B Metzler Verlag, 2008, S. 18} 
+Somit könne eine rein lexikalische zusammengesetzte Interpretation des Begriffes Softwarearchitektur folgendermaßen lauten: „Softwarearchitektur ist die theoretisch-wissenschaftliche Baukunst der Gesamtheit aller Programme für Rechensysteme“.
+
+Vergleicht man diese kurze und zugleich inhaltlich sehr weit gefassten Definition mit den zahlreichen Definitionen in der wissenschaftlichen Literatur, so fällt auf, dass der Kern durch die rein etymologische Näherung erfasst ist. Es bedarf allerdings der näheren Betrachtung, der bereits vorhanden Definitionen, um zu einer geeigneten Begriffsformulierung für diese Arbeit zu gelangen. 
+
+Allein in der vom Software Engineering Institute der Carnegie Mellon Univeristy veröffentlichten Publikation von verschiedenen Softwarearchitektur-Definititonen finden sich 29 verschiedene Interpretationen davon, was als Softwarearchitektur verstanden werden kann.
+\footnote{Carnegie Mellon University, https://insights.sei.cmu.edu/documents/2544/2010_010_001_513810.pdf aufgerufen am 12.05.2025}  
+
+Neben den Unterschieden in den einzelnen Begriffsdefinitionen lassen sich bei näherer Betrachtung allerdings nachstehende wiederkehrende Beschreibungen feststellen. So zählen die Organisation eines Softwaresystems, die Struktur der Architektur, die beteiligten Komponenten sowie die Unterteilung der Architektur in verschiedene Blickwinkel (Views) zu den mehrfach genannten Punkten. 
+\footnote{Carnegie Mellon University https://insights.sei.cmu.edu/documents/2544/2010_010_001_513810.pdf aufgerufen am 12.05.2025}  
+
+Eine der prominentesten Definitionen gibt das Institute of Electrical and Electronics Engineers (IEEE) ab. Hiernach ist Softwarearchitektur: die grundlegende Struktur eines Systems, verkörpert in seinen Komponenten, deren Beziehungen zueinander und zur Umgebung sowie den Prinzipien, die dessen Entwurf und Weiterentwicklung leiten.
+\footnote{Übersetzt aus dem Englischen ISO/IEC Standard for Systems and Software Engineering - Recommended Practice for Architectural Description of Software-Intensive Systems," in ISO/IEC 42010 IEEE Std 1471-2000 First edition 2007-07-15 , vol., no., pp.1-24, 15 July 2007, doi: 10.1109/IEEESTD.2007.386501. , S.3}
+
+Ergänzt man nun die etymologische Erklärung des Begriffes mit den Schwerpunkten des wissenschaftlichen Diskurses, so entsteht für den Begriff Softwarearchitektur folgende Definition:
+\\
+
+
+\textbf {Softwarearchitektur ist die theoretisch-wissenschaftliche Baukunst der Gesamtheit aller Programme für Rechensysteme. Sie befasst sich mit der Organisation und Struktur des Systems, deren Komponenten und den verschiedenen Sichtweisen, die auf ein System existieren können.}
+
+
+
 \section{Definition Modellierung}
 
+
 \section{Definition Modellierungssprache}
+
+Ein weiterer Begriff, der zum Verständnis der weiteren Vorgehensweise erforderlich ist, ist die Modellierungssprache. 	
+
+Auch dieser Begriff setzt sich aus zwei Teilen zusammen „Modellierung“ und „Sprache“.
+Untersucht wird zunächst, was sich hinter dem Begriff Modellierung verbirgt. Modellierung ist die Bezeichnung zum Erstellen eines Modells. Der dahinter liegende Modellbegriff muss daher in einem ersten Schritt auch ergründet werden. Eine allgemeine Definition geben Frank et al \footnote{Frank, U., Strecker, S., Fettke, P. et al. Das Forschungsfeld „Modellierung betrieblicher Informationssysteme“. Wirtschaftsinf 56, 49–54 (2014). https://doi.org/10.1007/s11576-013-0393-z
+
+}, wonach Modelle zu verstehen sind als zweckgerichtete Abstraktionen, die Komplexität reduzieren um ein Analyse- und Kommunikationsmedium zu schaffen.
+
+Modelle selbst können in drei Unterarten geteilt werden. Mathematische Modelle, die Modelle zur Theoriebildung und die Modelle als Abbild der Realität. \footnote{Siehe Hans-Jochen Schneider, Lexikon Informatik und Datenverarbeitung, a.a.O. S. 545 }
+
+Welcher Modellbegriff zur Anwendung kommt, hängt vom jeweiligen Anwendungsfall und der konkreten Zielsetzung ab. Das Fachgebiet der Wirtschaftsinformatik ist „darauf ausgerichtet Theorien, Methoden und Werkzeuge zu entwickeln, die Realisierung, Nutzung und Pflege betrieblicher Informationssysteme unterstützen“. \footnote{Frank, U., Strecker, S., Fettke, P. et al. Das Forschungsfeld „Modellierung betrieblicher Informationssysteme“. Wirtschaftsinf 56, 49–54 (2014). https://doi.org/10.1007/s11576-013-0393-z}
+Diese Zielsetzung gilt gleichermaßen für die hier aufgeworfenen Forschungsfragen. 
+
+Der mathematische Modellbegriff als erste Unterart ist mit seiner Beschränkung auf mathematische Aussagen und Strukturen \footnote{Siehe Hans-Jochen Schneider, Lexikon Informatik und Datenverarbeitung, a.a.O. S. 548}  nicht geeignet diese Zielsetzung zu erreichen. Da sich Softwarearchitektur nicht in seiner Komplexität mit mathematischen Formeln abbilden lässt.
+ 
+Das Modell zur Theoriebildung wird häufig in den Sozialwissenschaften genutzt, um mathematische quantifizierbare Aussagen zu treffen, wie z.B. bei einem Preisbildungsmodell.
+\footnote{Siehe Hans-Jochen Schneider, Lexikon Informatik und Datenverarbeitung, a.a.O. S. 545}
+
+Auch dieser Begriff, ist mit Blick auf den Forschungsgegenstand nicht für die Verwendung zweckdienlich. Da Softwarearchitektur je nach anwendungsfall zu definieren ist, ist das Modell zur Theoriebildung nicht sinnvoll einsetzbar.
+
+Der Modellbegriff als Abbildung der Realität wiederum, mit dessen Schwerpunkt, der abstrakt symbolischen Darstellungen ist geeignet genutzt zu werden. Durch den Einsatz dieser Modellart ist es möglich mit Hilfe geeignet gewählter Symbolik und einem passend gewählten Sprachsystem, das oben genannte Ziel zu erreichen.
+
+Der für die Qualifikationsarbeit zu definierende Modellbegriff wird in der unten Aufgeführten Übersicht unter dem Punkt der abstrakt symbolischen Modellart eingeordnet.
+
+
+
+Hier ein Beispielbild:
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{AbbildungModellarten.png}
+    \caption{Übersicht der wichtigsten Modellarten, siehe Lexikon der Informatik und Datenverarbeitung S.546}
+    \label{fig:Abbildung 1 }
+\end{figure}
+
+%\includegraphics[width=0.6\textwidth]{img/AbbildungModellarten.png}  % Breite 50% der Textbreite
+
+
 
 \section{Definition Anforderungen}
 
