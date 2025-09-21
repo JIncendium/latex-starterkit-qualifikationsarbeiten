@@ -68,23 +68,144 @@ Der für die Qualifikationsarbeit zu definierende Modellbegriff wird in der unte
 
 
 
-Hier ein Beispielbild:
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=0.7\textwidth]{AbbildungModellarten.png}
+    \includegraphics[width=0.7\textwidth]{abc}
     \caption{Übersicht der wichtigsten Modellarten, siehe Lexikon der Informatik und Datenverarbeitung S.546}
-    \label{fig:Abbildung 1 }
+    \label{fig:abc}
 \end{figure}
 
-%\includegraphics[width=0.6\textwidth]{img/AbbildungModellarten.png}  % Breite 50% der Textbreite
+Der zweite Teil des Begriffes Modellierungssprache., die Sprachen, sind nach dem Gabler Wirtschaftslexikon Systeme der Kommunikation, die bezogen auf die Logik und Informatik formale Darstellungen von Aussagen, den Austausch und die Übertragung von Daten und Informationen ermöglichen, ebenso wie die Interaktion von Mensch und Computer.
+\footnote{Vgl. Gabler Wirtschaftslexikon, https://wirtschaftslexikon.gabler.de/definition/sprache-124739/version-388115 aufgerufen am 12.05.2025}
+
+Neben dieser lexikalischen begrifflichen Einordnung sind weiter die vier wesentlichen Merkmale von Modellierungssprachen zu beachten:
+\footnote{Karl Kurbel, Modellierung betrieblicher Informationssysteme – Modelle Methoden und Werkzeuge, de Gruyter, Berlin/Boston 2024 S. 7 f} \\
+
+ 
+\tab•	Symbole - textliches oder graphisches Element \\
+\tab•	Syntax - definiert wie Symbole angeordnet und benutzt werdenModellierungssprache \\
+\tab•	Semantik -beschreibt die Bedeutung der vorhandenen Symbole Anforderungen\\
+\tab•	Grammatik (oder Metamodell)- gibt Regeln für die Verwendung der Symbole vor.\\
+
+Das Ergebnis ist meist ein Modell der Architektur in graphischer Form, seltener in Textform.
+
+Zusammenfassend wird der Begriff der Modellierungssprache für das Ziel dieser Arbeit wie folgt definiert: 
+
+\textbf{Eine Modellierungssprache ist ein formales System, das auf Symbolen, Syntax, Semantik und Grammatik basiert. Sie dient dazu, Modelle zu erstellen, um komplexe Sachverhalte zu analysieren, zu kommunizieren und zu dokumentieren. Dabei ermöglicht sie durch grafische oder textuelle Elemente die strukturierte Darstellung von Systemarchitekturen oder -prozessen. }
 
 
 
 \section{Definition Anforderungen}
 
+
+Um die Anforderungen an Modellierungssprachen, den Kern der Forschungsfrage herausarbeiten zu können, bedarf auch der Anforderungsbegriff einer eindeutigen Klärung. 
+
+Auch hier bietet sich eine Annäherung über die allgemeine Bedeutung der Begrifflichkeit von Anforderungen zum Verständnis des Begriffes in der Informatik an, bevor diskutiert wird, ob die bestehenden Definitionen für diese Qualifikationsarbeit passend ist oder mit Blick auf den konkreten Bezug zu Modellierungssprachen eine Anpassung erfolgen muss.
+
+Nach der lexikalischen Bedeutung sind Anforderungen als Anspruch bzw. Forderung an jemandes Leistung o. Ä. zu verstehen.\footnote{https://www.duden.de/node/6189/revision/1361659}Diese Bedeutung wird von Balzert aufgegriffen und angepasst. Hiernach legen Anforderungen fest, welche Eigenschaften man von einem Softwaresystem erwartet.\footnote{Vgl. Helmut Balzert, Lehrbuch der Softwaretechnik – Basiskonzepte und Requirementsengineering, Spektrum akademischer Verlag 2009, S.455} Dabei ist zu beachten, dass „man“ hier ein Platzhalter für Stakeholder, Akteur, oder Interessenvertreter zu verstehen ist. Während der Begriff „Eigenschaften“ je nach Anwendungsfall näher spezifiziert werden muss. Diese werden unterschieden in funktionale und nichtfunktionale Anforderungen. Diese Unterscheidung wird an späterer Stelle aufgegriffen.
+
+Die Definition von Anforderungen nach Pohl in seinem Standardwerk „Requirements Engineering“ ist die Definition des IEEE:\footnote{Requirements Engineering – Fundamentals, Principles, and technieques, Springer, 2010 , S.16}
+
+% hier evtl nochmal nacharbeiten
+% kursive Darstellung noch nicht optimal
+%
+%
+%
+%
+\begin{itshape} % ganze Umgebung kursiv
+
+Requirement:\\
+(1)	a condition or capability needed by a user to solve a problem or archieve an objective 
+
+(2)	A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification, or other formally imposed documents
+
+(3)	A documented representation of a condition or capability as in (1) or (2)
+
+
+\end{itshape}
+
+Eine weitere Definition zu Anforderungen liefert Ebert:\textit{„Eine Anforderung beschreibt was der Kunde oder Benutzer vom Produkt erwartet“}\footnote{Vgl. Christof Ebert, Systematisches Requirements Engineering – Anforderungen ermitteln, dokumentieren, analysieren und verwalten, dpunkt.verlag, 2019, S.21f}Das Produkt wiederum ist zu verstehen als \textit{„Menge von Bedingungen, Attributen und Zielen, besonders der Nutzen, den der Kunde sich von diesem Produkt verspricht.“} 
+
+Ebert grenzt das Produkt in seiner Definition noch weiter ein, da er ein Produkt ausschließlich als eines der folgenden Objekte sieht: Anwendungen, IT-Systeme, eingebettete Software, IT-Lösungen sowie Dienstleistungen.
+
+Nach diesen Vorbedingungen so Ebert, ist eine Anforderung zu subsumieren als Eigenschaft oder Bedingung, die von einem Nutzer zur Lösung eines Problems oder zur Erreichung eines Ziels benötigt wird. Ebenso ist sie Eigenschaft oder Bedingung, die ein System erfüllen muss, um einen Vertrag, eine Norm oder andere formell vorgegebene Dokumente zu erfüllen. Darüber hinaus hat sie dokumentieren Charakter, die die vorgenannten Punkte repräsentiert.\footnote{Vgl. Vgl. Christof Ebert, Systematisches Requirements Engineering – Anforderungen ermitteln, dokumentieren, analysieren und verwalten, dpunkt.verlag, 2019, S.21f}
+
+Hier fällt auf, dass Ebert die Definition des IEEE nahezu wörtlich übernommen hat.
+Die Definition des IEEE wird auch in den Werken von Hammerschall und Beneken \footnote{Software Requirements, Ulrike Hammerschall, Gerd Beneken, Pearson, 2013, S. 28} sowie Partsch \footnote{Helmut Partsch, Requirements Engineering, Oldenourg Verlag, 1991, S. 34 } \footnote{Helmut Partsch, Requirements Engineering, Oldenourg Verlag, 1991, S. 34 }
+
+Eine weitere Dimension der Anforderungsbetrachtung eröffnet Ebert durch die Einbeziehung der Kundensicht. Aus der Kundenperspektive ist ein Produkt immer dann erfolgreich, wenn es den Bedürfnissen des Kunden in seiner Umgebung gerecht wird. Diese Bedürfnisse werden durch Anforderungen kommuniziert. Ebert weist darauf hin, dass hier die Anforderungen beschreiben sollen, was ein Ziel (des Kunden) ist. Während der nächste Schritt, die Lösung für den Kunden beschreiben soll, wie das zuvor beschriebenen Ziel erreicht wird.
+
+Zusammengefasst sind Anforderungen Aussagen über zu erbringende Leistungen des Produkts. Diese Aussagen oder Eigenschaften lassen sich im Bereich Software-Engineering in weitere zwei Gruppen unterteilen. 
+In funktionalen Anforderungen und nicht-funktionalen Anforderungen.
+
+Funktionale Anforderungen legen für eine vom Softwaresystem oder einer seiner Komponenten bereitzustellende Funktionen oder Services fest \footnote{Helmut Partsch Requirements Engineering systematisch, Springer , 2010 S.25}. Die nicht funktionalen Anforderungen wiederum lassen sich gliedern in Anforderungen, die die Statik, die die Dynamik oder die die Logik eines Systems beschreiben. Zu den funktionalen Anforderungen zählen Beispielsweise: Genauigkeit, Verfügbarkeit, Nebenläufigkeit, Konsumierbarkeit (als Obermenge der Benutzbarkeit), Internationalisierung, Zuverlässigkeit, Sicherheit, Serviceanforderungen.
+
+Die Nicht-funktionalen Anforderungen lassen sich besser als Qualitätsforderungen bezeichnen. Zu diesen zählen: Qualität der Nutzung, Qualität der Entwicklung, Qualität im Betrieb und Qualität der Vermarktung.\footnote{Manfred Broy, et al, Einführung in die Softwaretechnik, Springer 2021 S.  } 
+%%
+%
+%hier fehlt noch die Seite in der Fußnote
+%
+%
+
+Nachdem der Begriff Anforderungen in der Informatik sehr zielgerichtet auf Software und Softwareentwicklung ausgelegt ist, sind Überlegungen anzustellen, ob Anforderungen an Modellierungssprachen, sich in dieses Gerüst einfügen, oder ob hier eine Anpassung der Anforderungsbegrifflichkeiten notwendig ist. 
+
+Da eine Modellierungssprache zunächst keine Software ist, sondern eine formalisierte Sprache um Modelle zu abstrahieren, erscheint die Unterteilung in funktionale und nicht funktionale Anforderungen zunächst nicht zweckdienlich. Wenn man jedoch Argumentation folgt, dass Modellierungssprachen hingegen erst mit entsprechender Softwareunterstützung sinnvoll verwendet werden können, wäre die Einteilung in die Softwareanforderungssystematik wieder denkbar. 
+
+In der wissenschaftlichen Literatur sind eine ganze Reihe von generischen Anforderungen definiert, welche Softwaremodellierungssprachen erfüllen sollen. So lassen sich die insgesamt 33 formulierten Kriterien von S. Patig\footnote{Susanne Pattig, Die Evolution von Modellierungssprachen, Frank \& Timme, 2006 S. 57ff}, A. Drescher et al \footnote{Andreas Drescher et al, Modellierung und Analyse von Geschäftsprozessen, 2017 S. 35ff}, Schalles et al \footnote{Christian Schalles et al, Ein generischer Ansatz zur Messung der Benutzerfreundlichkeit von Modellierungssprachen, 2010 } und U. Frank \footnote{Ulrich Frank, Outline of a method for designing domain-specific modelling languages, 2013, S 3 Helmut Balzert, Lehrbuch der Softwaretechnik – Basiskonzepte und Requirementsengineering, Spektrum akademischer Verlag 2009, S.456} aufgrund ihrer Ähnlichkeiten in folgende Anforderungsgruppen zusammenfassen.
+
+\begin{table}[h!]
+\centering
+\caption{Anforderungsthemenbereiche und dazugehörige Kriterien von Modellierungssprachen}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}m{0.8cm} 
+>{\raggedright\arraybackslash}X 
+>{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Nr.} & \textbf{Themenbereich} & \textbf{Zugehörige Kriterien / Aspekte} \\
+\midrule
+1 & Verständlichkeit und Benutzerfreundlichkeit & Verständlichkeit, Benutzerfreundlichkeit, Einfachheit, Natürlichkeit \\
+\midrule
+2 & Eindeutigkeit und Klarheit & Bedeutungseindeutigkeit, Äußerungseindeutigkeit, Bezeichnungseindeutigkeit, Ontologische Klarheit \\
+\midrule
+3 & Vollständigkeit und Ausdrucksmächtigkeit & Ausdrucksmächtigkeit, Ausdrucksstärke, formale Vollständigkeit, Ontologische Vollständigkeit \\
+\midrule
+4 & Erweiterbarkeit und Anpassbarkeit & Erweiterbarkeit, Offenheit, dynamische Anpassbarkeit \\
+\midrule
+5 & Abstraktion, Modularität und Struktur & Abstraktion, Orthogonalität, Kompaktheit, Strukturierte Trennung von Abstraktionsebenen \\
+\midrule
+6 & Formale Korrektheit und Präzision & Korrektheit, Formalisierungsgrad, Präzisierungsgrad, Notation \\
+\midrule
+7 & Effizienz und Wiederverwendbarkeit & Wiederverwendbarkeit, Kompaktheit, Benutzerfreundlichkeit \\
+\midrule
+8 & Analysefähigkeit und Werkzeugunterstützung & Analysierbarkeit, Ausführbarkeit, Visualisierungsmöglichkeiten, Entwicklungsunterstützung \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Eine Einordnung dieser Anforderungen an Modellierungssprachen in funktionale und nicht funktionale Anforderungen könnte wie folgt aussehen: 
+Funktional einzuordnen wären (3) Vollständigkeit und Ausdrucksstärke. Hier muss die Sprache in der Lage sein alle relevanten Konzepte des Anwendungsbereiches abzubilden. (6) Formale Korrektheit, eine klar definierte Syntax, die maschinell überprüfbar sein muss.
+
+Eine nicht funktionale Anforderung nach den Kriterien wäre die (4) Erweiterbarkeit. Dieses Kriterium bedeutet, dass die Sprache sich zukünftig um neue Konstrukte erweitern lässt.
+
+Schwierigkeiten die Anforderungen an Modellierungssprachen in die Einteilung funktional/nichtfunktional einzuordnen, treten ebenfalls auf. Hier werden die Wechselwirkungen der Aspekte deutlich. Der Aspekt der Benutzerfreundlichkeit, als Teil der Klarheit der Sprache aufgefasst, kann sinnvoll der funktionalen Anforderung zugeordnet werden. Wenn ein Nutzer der Sprache jedoch Benutzerfreundlichkeit ebenfalls der Erweiterbarkeit oder Anpassbarkeit zuordnet, wäre dieser Aspekt in als nichtfunktionale Anforderung zu verstehen. 
+
+Diese nicht trennscharfe Einordnung trifft auch den Aspekt der Natürlichkeit, die Sprache entspricht dem natürlichen Denken der Nutzer. Dies kann nur funktional durch die Notation gelöst werden. Die Natürlichkeit wird wiederrum direkt unterstützt durch die Werkzeugunterstützung und die damit einhergehenden (graphischen) Visualisierungsmöglichkeiten.
+
+Bereits die Betrachtung der vorgenannten Punkte, lässt es sinnvoll erscheinen, eine andere Unterscheidung von Anforderungen an Modellierungssprachen zu diskutieren. 
+
+Eine Systematisierung von Anforderungen für Modellierungssprachen liefert Frank. Nach ihm können Anforderungen in drei Arten unterteilt werden \footnote{Frank, U et al, Anforderungen an Sprachen zur Modellierung von Geschäftsprozessen,2003 S.25ff}.
+
+Eine Systematisierung von Anforderungen für Modellierungssprachen liefert Frank. Nach ihm können Anforderungen in drei Arten unterteilt werden .
+Erstens formale Anforderungen. Diese zielen auf die Überprüfung der Integrität von Modellen, die Transformation bzw. die Berechnung von Modelleigenschaften ab. Unter diesen Punkt fallen nach Tabelle 1 u. a. Punkte (3) Vollständigkeit und (6) formale Korrektheit. Zweitens die anwenderbezogenen Anforderungen, die das Verhältnis des Anwenders zu den bereitgestellten Konzepten sowie deren Visualisierung betreffen. Und drittens, die anwendungsbezogenen Anforderungen, die sich auf die Eigenschaften der Modellierungssprache beziehen, die einen allgemeinen Bezug zu Modellierungszwecken und -domänen besitzen. Auch hier ist eine klare Abgrenzung der Kategorien nicht immer möglich, da die Kategorien gegenseitige Abhängigkeiten aufweisen. 
+
+Da die Kategorien von Frank sich speziell auf Modellierungssprachen bezieht, ist diese Einteilung besser geeignet die Anforderungen, die Softwarearchitekten an Modellierungssprachen haben könnten, abzubilden. Die Anforderungseinteilung aus dem Requirements-Engineerung bzw. der Softwaretechnik zielt mit ihrem Schwerpunkt auf Softwareentwicklung und wäre eher für eine auf Anwendungsentwickler ausgerichtete Forschungsarbeit geeignet. 
+
+
+
 \section{aktuelles Bild der Softwarearchitektur}
 
 \section{Landschaft der Modellierungssprachen}
+
+Im Bereich der Softwarearchitektur haben sich eine Vielzahl von Modellierungssprachen etabliert. Zu diesen zählen unter anderem die Unified Modeling Language (UML), die System Modeling Language (SysML), Business Process Model an Notation (BPMN) und Architecture Modeling Language (Archimate). Eine nähere Betrachtung der Eigenschaften sowie eine geeignete Auswahl von Modellierungssprachen wird in der eigentlichen Qualifikationsarbeit vorgenommen. 
 
 \subsection{Beispiel UML}
 
@@ -94,6 +215,8 @@ Hier ein Beispielbild:
 
 \section{Bekannte Limitationen von Modellierungssprachen an ausgewählten Beispielen}
 
+
+Nachdem nun die wichtigsten Begrifflichkeiten erörtert sind widmet sich der nächste Abschnitt der Methodik der Qualifikationsarbeit. 
 
 %%% Local Variables:
 %%% mode: latex
