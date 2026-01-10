@@ -9,6 +9,8 @@
 
 \section{Definition Zentraler Begriffe}
 
+Bevor die Forschungsfrage mithilfe der empirischien Forschung beantwortet werden kann ist eine Einordnung sowie die Definition der wichtigsten Begrifflichkeiten notwendig. Diese beginnt zunächst mit den wichtigsten Begrifflichkeiten in den kommenden Abschnitten bevor ausgewählte Modellierungssprachen  näher betrachtet werden.
+
 \section{Definition des Softwarearchitekturbegriffes}
 
 Der erste Begriff, der für das erste Verständnis benötigt wird, ist die Softwarearchitektur. 
@@ -151,7 +153,7 @@ Nachdem der Begriff Anforderungen in der Informatik sehr zielgerichtet auf Softw
 
 Da eine Modellierungssprache zunächst keine Software ist, sondern eine formalisierte Sprache um Modelle zu abstrahieren, erscheint die Unterteilung in funktionale und nicht funktionale Anforderungen zunächst nicht zweckdienlich. Wenn man jedoch Argumentation folgt, dass Modellierungssprachen hingegen erst mit entsprechender Softwareunterstützung sinnvoll verwendet werden können, wäre die Einteilung in die Softwareanforderungssystematik wieder denkbar. 
 
-In der wissenschaftlichen Literatur sind eine ganze Reihe von generischen Anforderungen definiert, welche Softwaremodellierungssprachen erfüllen sollen. So lassen sich die insgesamt 33 formulierten Kriterien von S. Patig\footnote{Susanne Pattig, Die Evolution von Modellierungssprachen, Frank \& Timme, 2006 S. 57ff}, A. Drescher et al \footnote{Andreas Drescher et al, Modellierung und Analyse von Geschäftsprozessen, 2017 S. 35ff}, Schalles et al \footnote{Christian Schalles et al, Ein generischer Ansatz zur Messung der Benutzerfreundlichkeit von Modellierungssprachen, 2010 } und U. Frank \footnote{Ulrich Frank, Outline of a method for designing domain-specific modelling languages, 2013, S 3 Helmut Balzert, Lehrbuch der Softwaretechnik – Basiskonzepte und Requirementsengineering, Spektrum akademischer Verlag 2009, S.456} aufgrund ihrer Ähnlichkeiten in folgende Anforderungsgruppen zusammenfassen.
+In der wissenschaftlichen Literatur sind eine ganze Reihe von generischen Anforderungen definiert, welche Softwaremodellierungssprachen erfüllen sollen. So lassen sich die insgesamt 33 formulierten Kriterien von S. Patig\footnote{Susanne Pattig, Die Evolution von Modellierungssprachen, Frank \& Timme, 2006 S. 57ff}, A. Drescher et al \footnote{Andreas Drescher et al, Modellierung und Analyse von Geschäftsprozessen, 2017 S. 35ff}, Schalles et al \footnote{Christian Schalles et al, Ein generischer Ansatz zur Messung der Benutzerfreundlichkeit von Modellierungssprachen, 2010 } und U. Frank \footnote{Ulrich Frank, Outline of a method for designing domain-specific modelling languages, 2013, S 3 Helmut Balzert, Lehrbuch der Softwaretechnik – Basiskonzepte und Requirementsengineering, Spektrum akademischer Verlag 2009, S.456} aufgrund ihrer Ähnlichkeiten in folgende Anforderungsgruppen, wie in Tabelle 2.1 aufgelistet, zusammenfassen.
 
 \begin{table}[h!]
 \centering
@@ -205,13 +207,36 @@ Da die Kategorien von Frank sich speziell auf Modellierungssprachen bezieht, ist
 
 \section{Landschaft der Modellierungssprachen}
 
-Im Bereich der Softwarearchitektur haben sich eine Vielzahl von Modellierungssprachen etabliert. Zu diesen zählen unter anderem die Unified Modeling Language (UML), die System Modeling Language (SysML), Business Process Model an Notation (BPMN) und Architecture Modeling Language (Archimate). Eine nähere Betrachtung der Eigenschaften sowie eine geeignete Auswahl von Modellierungssprachen wird in der eigentlichen Qualifikationsarbeit vorgenommen. 
+Im Bereich der Softwarearchitektur haben sich eine Vielzahl von Modellierungssprachen etabliert. Diese werden über die Softwareentwicklung hinaus zur Darstellung ganz unterschiedlicher Zielsetzungen eingesetzt. Die in den folgenden Abschnitten vorgestellten Beispiele von Modellierungssprachen sind mit Blick auf die Forschungsfrage bewusst ausgewählt. Es handelt sich hierbei um die Modellierungssprachen, die von den Interviewpartnern in der Praxis verwendet werden, gleiches gilt für die ausgewählten Beispiele der Diagrammtypen einzelner Modellierungssprachen. Die folgenden Modellierungssprachen werden nun erläutert: Die Unified Modeling Language (UML), die System Modeling Language (SysML), Business Process Model an Notation (BPMN) und Architecture Modeling Language (Archimate).
+
+ 
 
 \subsection{Beispiel UML}
 
-\subsection{Beispiel Sprache 2}
+Die Modellierungssprache Unified Modelling Language kurz UML ist als allgemein nutzbare Modellierungssprache konzipiert. Durch die Bereitstellung von vielen Diagrammarten und Notationselementen ist sie für mehr Einsatzfelder als ausschließlich die Softwareentwicklung geeignet. Die Diagrammtypen ermöglichen sowohl dynamische als auch statische Elemente beliebiger Anwendungsgebiete zu modellieren. Die Sprache bietet einige Vorteile für ihre Verwendung. Sie gilt unter anderem als eine sehr ausdrucksstarke, verständliche Modellierungssprache. Ein großer Vorteil ist die weltweite Akzeptanz von UML. Die Objekt Mangagement Group mit mehr als 800 teilnehmenden Unternehmen, ist für die Spezifikation verantwortlich.\footnote{Vgl. Christoph Kecher et al, UML 2.5 Das umfassende Handbuch, 2018, S.20f}. UML ist darüber hinaus eine von fünf Modellierungssprachen, die für die Prozessmodellierung in der deutschen Verwaltung genutzt werden muss.\footnote{Bundesministerium des Innern (Hrsg.): IT‑Architekturrichtlinie des Bundes, 2025, online unter: https://www.cio.bund.de/SharedDocs/downloads/Webs/CIO/DE/digitaler-wandel/architekturen-standard/ArchRL.pdf, abgerufen am 10.01.2026.}
+UML bietet 15 unterschiedliche Diagrammtypen die sich in drei Diagrammkategorien unterscheiden lassen. Hierzu zählen die Strukturdiagramme, die Verhaltensdiagramme und die Interaktionsdiagramme. Ein Beispiel für ein Strukturdiagrammtyp ist das Klassendiagramm, welches ein zentraler Teil der Modellierungssprache UML darstellt. Klassendiagramme werden verwendet um Attribute von Systeme und statische Bestandteile zu zeigen, sowie deren Beziehungen untereinander.\footnote{Vgl.Christoph Kecher et al, UML 2.5 Das umfassende Handbuch, 2018, S.37}
 
-\subsection{Beispiel Sprache 3}
+\textcolor{red}{ Evtl. Bild von Klassendiagramm einfügen}
+
+Ein Zustandsdiagramm  wäre ein Beispiel für ein Verhaltensdiagramm. Mit diesem Diagrammtyp wird das dynamische Verhalten eines Systems modelliert. Zustandsdiagramme legen dabei den Fokus auf die Reaktionen des Systems. Das Verhalten von Benutzeroberflächen lässt sich mit diesem Typ sehr gut abbilden. \footnote{Vgl.Christoph Kecher et al, UML 2.5 Das umfassende Handbuch, 2018, S.305}
+
+\textcolor{red}{ Evtl. Bild von Klassendiagramm einfügen}
+
+Ein Beispiel für die dritte Diagrammkategorie, den Interkationsdiagrammenm, ist das Sequenzdiagramm. Dieser Diagrammtyp modelliert und Interaktionen zwischen Objekten, sie unterstützen das Verständnis in der Analysephase von Softwareentwicklung, welche Akteure (Systeme und Personen) in welcher Weise untereinander in Interaktion treten. \footnote{Vgl.Christoph Kecher et al, UML 2.5 Das umfassende Handbuch, 2018, S.351}
+
+\textcolor{red}{ Evtl. Bild von Sequenzdiagramm einfügen}
+
+Im folgenden Abschnitt wird die Modellierungssprache BPMN vorgestellt
+
+\subsection{Beispiel BPMN}
+
+Die Modellierungssprache Business Modell and Notation (BPMN) ist sowohl für Geschäftsprozessmodellierung als auch die Unterstützung von Prozessimplementierung  geeignet. Eines der Hauptziele bei der Konzeption der Sprache war eine leichte Verständlichkeit der Sprache für alle Anwendergruppen. Hierzu zählen neben den Entwicklern auch die Fachbereichsmitarbeiter und das Management. Auch bei BPMN existieren Verschiedene Diagrammtypen, um die verschiedene Sichtweisen und Abläufe darstellen zu können. \footnote{Andreas Drescher, Modellierung und Analyse von Geschäftsprozessen- Grundlagen und Übungsaufgaben mit Lösungen, 2017 S.39f} BPMN gehört ebenfalls zu den Pflicht-Modellierungssprachen nach der Architekturrichtlinie des Bundes.\footnote{Bundesministerium des Innern (Hrsg.): IT‑Architekturrichtlinie des Bundes, 2025, online unter: https://www.cio.bund.de/SharedDocs/downloads/Webs/CIO/DE/digitaler-wandel/architekturen-standard/ArchRL.pdf, abgerufen am 10.01.2026.}
+
+
+
+\subsection{Beispiel Archimate}
+
+\subsection{Beispiel SysML}
 
 \section{Bekannte Limitationen von Modellierungssprachen an ausgewählten Beispielen}
 
