@@ -69,13 +69,13 @@ Die nächste Unterkategorie A2 zeigt auf, welche Modellierungssprachen aktuell v
 
 Die nächste Unterkategorie A2 zeigt auf, welche Modellierungssprachen aktuell von den Softwarearchitekten benutzt werden. Die Ergebnisse werden kurz in der folgenden Abbildung dargestellt.
 
-
-\begin{table}[htbp]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.9\textwidth]{Kaptitel_4 _Abb_Genutzte_Modellierungssprachen.png}
-    \caption{genutzte Modellierungssprachen(eigene Darstellung)}
-    \label{tab:genutzteModellierungssprachen}
-\end{table}
+    \caption{Genutzte Modellierungssprachen (eigene Darstellung)}
+    \label{fig:genutzteModellierungssprachen}
+\end{figure}
+
 
 Die befragten Softwarearchitekten nutzen demnach überwiegend mehr als eine Modellierungssprache. Ein Softwarearchitekt hingegen verzichtet bewusst auf die Nutzung einer formalisierten Modellierungssprache. Die übrigen neun Softwarearchitekten benutzen alle UML, sieben Verwenden BPMN 2.0. Die Modellierungssprachen Archimate und ERM werden in geringerem Umfang verwendet. Lediglich zwei Softwarearchitekten nutzen ausschließlich UML.\footnote{siehe Anhang A2 Modellierungssprachen in Nutzung}
 
@@ -130,9 +130,21 @@ Die Unterkategorie mit den meisten Fundstellen in den 10 Interviews befasst sich
 \end{list}
 
 Zum ersten Punkt, die Rolle des Architekten findet sich neben der Aussage, dass Modellierung grundsätzlich notwendig ist auch die Überzeugung, dass auf Modellierung bei kleinen Anwendungen verzichtet werden kann. Die Modellierungstätigkeit soll eine Arbeitserleichterung für nachgelagerte Prozesse sein und der Strukturierung von Gedanken, Entscheidungen und Kommunikation dienen.
-Auch beim zweiten Punkt Vorgehensweise kann festgestellt werden, dass Architekten sehr unterschiedlich an Probleme herangehen. Hier stehen die Aussagen, dass zur Entscheidungsfindung am besten zwei Lösungen modelliert werden sollten neben Aussagen, dass Modellierung erfahrungsbasiert ohne Muster abläuft.  Ein Architekt betont das Mitdenken von Ressourcenengpassen in seiner Vorgehensweise. 
+Auch beim zweiten Punkt Vorgehensweise kann festgestellt werden, dass Architekten sehr unterschiedlich an Probleme herangehen. Hier stehen die Aussagen, dass zur Entscheidungsfindung am besten zwei Lösungen modelliert werden sollten neben Aussagen, dass Modellierung erfahrungsbasiert ohne Muster abläuft.  Ein Architekt betont das Mitdenken von Ressourcenengpässen in seiner Vorgehensweise. 
 
-\textcolor{red}{ Ein Ausschnitt aus der inhaltsanalytischen Auswertung der Aussagen zur Unterkategorie A5, Herangehensweise bei der Modellierung, findet sich auf der folgenden Seite in Tabelle XYZ}
+Ein Ausschnitt aus der inhaltsanalytischen Auswertung der Aussagen zur Unterkategorie A5, Herangehensweise bei der Modellierung, findet sich auf der folgenden Seite in Tabelle \ref{tab:A5 Ausschnitt}
+
+\begin{landscape} % Querformat-Seite
+\begin{table}[H]
+    \centering
+    % Caption über der PDF
+    \caption{Ausschnitt der Zusammenfassung A5}
+    \label{tab:A5 Ausschnitt}
+    \vspace{1em} % Abstand zwischen Caption und PDF
+    % PDF einfügen, etwas kleiner
+    \includegraphics[width=1.5\textheight]{Kapitel_4_A5_Ausschnitt.pdf}
+\end{table}
+\end{landscape}
 
  
 Auch im Punkt Modellierungssprachen, Standards und Formalität stehen sich gegensätzliche Aussagen gegenüber. Softwarearchitekt 7 vertritt die Position, dass Modellierung ohne Modellierungssprache und ohne formale Standards möglich, aber umständlich ist. Folgendes Ankerbeispiel des Interviews mit Softwarearchitekt 7 soll dies verdeutlichen.
@@ -218,7 +230,7 @@ Andere Architekten betonen hingegen, um unterschiedlichen Stakeholdern gerecht z
 Folgende Punkte wurden ebenfalls genannt, Usability, Klarheit und eine gute Lesbarkeit der Modelle. Die Eindeutigkeit der Modelle stellt auch eine grundlegende Anforderung dar, um Fehlinterpretationen zu vermeiden.
 Mehrfach wurde auch die Toolunterstützung als wesentliche Anforderung an eine Modellierungssprache genannt.\footnote{Anhang B4 Anwenderbezogene Anforderungen}
 
-\subsection*{anwendungsbezogene Anforderungen}
+\subsection{Anwendungsbezogene Anforderungen}
 
 Für die anwendungsbezogenen Anforderungen wird von den befragtem Softwarearchitekten die Operationalisierbarkeit genannt. Explizit wurde hierbei die Darstellung von zeitlichen Verläufen herausgestellt. Auch Mächtigkeit und Angemessenheit werden betont. Die Möglichkeit alle Sachverhalte im geforderten Detaillierungsgrad darzustellen wird als Anforderung formuliert. 
 Ein Softwarearchitekt formuliert es gegenläufig, hier wird Ausdruckstärke als weniger wichtig angegeben. \footnote{B5 Anwendungsbezogene Anforderungen}
@@ -244,6 +256,7 @@ Die folgende Tabelle \ref{tab:C2kategorien} gibt einen Überblick über die Antw
 
  \begin{table}[h!]
 \centering
+\caption{Übersicht der Kategorien nach Anzahl der Nennungen}
 \begin{tabular}{c l c}
 \toprule
 \textbf{Rang} & \textbf{Kategorie} & \textbf{Anzahl der Nennungen} \\
@@ -256,7 +269,7 @@ Die folgende Tabelle \ref{tab:C2kategorien} gibt einen Überblick über die Antw
 6 & Methodische / fachliche Grenzen & 5 \\
 \bottomrule
 \end{tabular}
-\caption{Übersicht der Kategorien nach Anzahl der Nennungen}
+
 \label{tab:C2kategorien}
 \end{table}
 
@@ -305,6 +318,7 @@ Die Kategorie C6 Toolunterstützung ist mit 66 Fundstellen die am häufigsten Au
 
 \begin{table}[h!]
 \centering
+\caption{ Verbesserungsvorschläge nach Anzahl der Nennungen}
 \begin{tabular}{c l c}
 \toprule
 \textbf{Rang} & \textbf{Kategorie} & \textbf{Anzahl der Nennungen} \\
@@ -313,7 +327,7 @@ Die Kategorie C6 Toolunterstützung ist mit 66 Fundstellen die am häufigsten Au
 2 & Interoperabilität, Standardisierung \& Toolunabhängigkeit & 12 \\
 3 & Versionierung, Synchronisation \& Kollaboration & 10 \\
 4 & Automatisierung \& KI-Unterstützung & 10 \\
-5 & Erweiterbarkeit  9 \\
+5 & Erweiterbarkeit & 9 \\
 6 & Stakeholderorientierung \& Sichten & 7 \\
 7 & Integration in Entwicklungsumgebung & 6 \\
 8 & Konsistenzprüfung, Governance \& Modellqualität & 5 \\
@@ -321,7 +335,7 @@ Die Kategorie C6 Toolunterstützung ist mit 66 Fundstellen die am häufigsten Au
 
 \bottomrule
 \end{tabular}
-\caption{ Verbesserungsvorschläge nach Anzahl der Nennungen}
+
 \label{tab:C6Verbesserungen}
 \end{table}
 
