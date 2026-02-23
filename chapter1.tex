@@ -7,53 +7,56 @@
 
 \chapter{Einleitung}
 
-Die Nutzung von Modellierungssprachen ist ein zentrales Element für die anforderungsgerechte Beschreibung von Softwarearchitekturen. Die Modellierungssprachen dienen hierbei als formales und kommunikatives Mittel um Systemstrukturen zu planen und zu beschreiben. Hierfür wurden viele unterschiedliche Modellierungssprachen entwickelt. Neben universellen Modellierungssprachen(engl. General-Purpose Modeling Languagees (GPML)) finden auch domänenspezifischen Modellierungssprachen(engl. Domain-Specific Modeling Language(DSML) verbreitung.\footnote{A. Fedeli et al. “Comparison of general-purpose and domain-specific modeling languages in the IoT domain: A case study from the OMiLAB community,” in Joint Proceedings of the BIR 2023 Workshops and Doctoral Consortium co-located with 22nd International Conference on Perspectives in Business Informatics Research (BIR 2023), Aachen: Sun SITE, Informatik V, RWTH Aachen, 2023, pp. 145–157. doi: 10.26041/fhnw-11146.} Bei genauerer Betrachtung werden in der Modellierungspraxis eine vielzahl an Sprachen genutzt, man erkennt jedoch, dass bestimmte Modellierungssprachen deutlich häufiger Anwendung finden.\footnote{P. Fettke. Ansätze der Informationsmodellierung und ihre betriebswirtschaftliche Bedeutung: Eine Untersuchung der Modellierungspraxis in Deutschland. Schmalenbachs Z betriebswirtsch Forsch 61, 550–580 (2009). https://doi.org/10.1007/BF03373665} Hierzu zählen zum Beispiel die Unified Modelling Language(UML) und das Entity-Relationship-Modell (ERM). Neben UML gehört die Business Process Modeling Notation (BPMN) zu den am häufigsten geforschten Modellierungssprachen.\footnote{T. Entringer et al. Comparative analysis main methods business process modeling: literature review, applications and examples. International Journal of Advanced Engineering Research an Science, S. 103 , 2019}
+Die Nutzung von Modellierungssprachen ist ein zentrales Element für die anforderungsgerechte Beschreibung von Softwarearchitekturen. Modellierungssprachen dienen hierbei als formales und kommunikatives Mittel, um Systemstrukturen zu planen und zu beschreiben. Hierfür wurden viele unterschiedliche Modellierungssprachen entwickelt. Neben universellen Modellierungssprachen (engl. General-Purpose Modeling Languagees (GPML)) finden auch domänenspezifischen Modellierungssprachen(engl. Domain-Specific Modeling Language (DSML) Verbreitung.\footnote{A. Fedeli et al., Comparison of general-purpose and domain-specific modeling languages in the IoT domain: A case study from the OMiLAB community, in Joint Proceedings of the BIR 2023 Workshops and Doctoral Consortium co-located with 22nd International Conference on Perspectives in Business Informatics Research (BIR 2023), Aachen: Sun SITE, Informatik V, RWTH Aachen, 2023, pp. 145–157. doi: 10.26041/fhnw-11146.} 
+
+In der Modellierungspraxis wird eine Vielzahl an Sprachen genutzt.
+Bei genauerer Betrachtung lässt sich jedoch erkennen, dass bestimmte Modellierungssprachen deutlich häufiger Anwendung finden.\footnote{P. Fettke, Ansätze der Informationsmodellierung und ihre betriebswirtschaftliche Bedeutung: Eine Untersuchung der Modellierungspraxis in Deutschland. Schmalenbachs Z betriebswirtsch Forsch 61, 550–580 (2009). https://doi.org/10.1007/BF03373665}
+Hierzu zählen zum Beispiel die Unified Modelling Language (UML) und das Entity-Relationship-Modell (ERM). Neben UML gehört die Business Process Modeling Notation (BPMN) zu den am häufigsten erforschten Modellierungssprachen.\footnote{T. Entringer et al., Comparative analysis main methods business process modeling: literature review, applications and examples. International Journal of Advanced Engineering Research an Science, S. 103 , 2019}
    
-Softwarearchitekten verwenden in der Praxis neben den formellen Modellierungssprachen auch informelle Notationen um ihre Modelle zu entwerfen und zu kommunizieren. 
-
-Hier fußnote Einfügen
-
-Dies deutet darauf hin, dass die Eigenschaften von Modellierungssprachen und die tatsächlichen Bedürfnisse von Softwarearchitekten an Modellierungssprachen nicht Deckungslgeich sind. Um diese Diskrepanz zu verringern, ist es notwendig herauszufinden, welche Anforderungen Softwarearchitekten an Modellierungssprachen haben. Ein besseres Verständnis über diese Anforderungen kann dazu beitragen, bestehende Sprachen weiterzuentwickeln und die praxistauglichkeit der Modellierungssprachen weiter zu erhöhen. Die Vorliegende Arbeit versucht diese Wissenslücke zu verringern und setzt sich empirisch fundiert mit den Anforderungen der Softwarearchitekten ausseindander.
+Softwarearchitekten verwenden in der Praxis neben den formellen Modellierungssprachen auch informelle Notationen, um ihre Modelle zu entwerfen und zu kommunizieren.\footnote{R. Jongeling et al., From Informal Architecture Diagrams to Flexible Blended Models. In: Gerostathopoulos, I., Lewis, G., Batista, T., Bureš, T. (eds) Software Architecture. ECSA 2022. Lecture Notes in Computer Science, vol 13444. Springer, Cham. https://doi.org/10.1007/978-3-031-16697-6_10, 2022} 
+Dies deutet darauf hin, dass die Eigenschaften von Modellierungssprachen und die tatsächlichen Bedürfnisse von Softwarearchitekten an Modellierungssprachen nicht deckungslgeich sind. Um diese Diskrepanz zu verringern, ist es notwendig herauszufinden, welche Anforderungen Softwarearchitekten an Modellierungssprachen haben. Ein besseres Verständnis über diese Anforderungen kann unmittelbar dazu beitragen, bestehende Sprachen weiterzuentwickeln und die Praxistauglichkeit der Modellierungssprachen weiter zu erhöhen. Die vorliegende Arbeit versucht diese Wissenslücke zu verringern und setzt sich empirisch fundiert mit den Anforderungen der Softwarearchitekten auseinander.
 
 
 
 \section{Problemstellung und Zielsetzung}
 \label{sec:semant-textauszeichnung}
 
-Um das oben Adressierte Problem besser zu beleuchten werden mithilfe dieser empirischen Ausarbeitung die  die Anforderungen von Softwarearchitekten an Modellierungssprachen erforscht. Die Arbeit wird Interviews mit praktizierenden Softwarearchitekten umfassen, um ein tiefes Verständnis ihrer Bedürfnisse, Präferenzen und der Herausforderungen zu gewinnen. Ziel ist es, ein klares Bild der Kriterien zu entwickeln, die Softwarearchitekten bei der Auswahl und Nutzung von Modellierungssprachen anwenden. Die Ergebnisse dieser Arbeit liefern praxisnahe Impulse für die Entwicklung und Verbesserung von Modellierungswerkzeugen, die adäquater auf die spezifischen Anforderungen der Anwender abgestimmt sind.
+Um das oben adressierte Problem besser zu beleuchten, werden mit Hilfe dieser empirischen Ausarbeitung die Anforderungen von Softwarearchitekten an Modellierungssprachen erforscht. Die Arbeit wird Interviews mit praktizierenden Softwarearchitekten umfassen, um ein tiefes Verständnis ihrer Bedürfnisse, Präferenzen und der Herausforderungen zu gewinnen. Ziel ist es, ein klares Bild der Kriterien zu entwickeln, die Softwarearchitekten bei der Auswahl und Nutzung von Modellierungssprachen anwenden. Die Ergebnisse dieser Arbeit liefern praxisnahe Impulse für die Entwicklung und Verbesserung von Modellierungswerkzeugen, die adäquater auf die spezifischen Anforderungen der Anwender abgestimmt sind.
 
-Die zentrale Forschungsfragen in dieser Arbeit lauten: 
+Die zentralen Forschungsfragen in dieser Arbeit lauten: 
 
-\newcommand{\tab}{\hspace*{2em}}
-
-\tab•	Welche Anforderungen haben Softwarearchitekten an Modellierungssprachen ?
-\tab•	Welche Herausforderungen und Verbesserungspotenziale sehen Softwarearchitekten bei der Anwendung bestehender Modellierungssprachen?
+\begin{itemize}
+  \item Welche Anforderungen haben Softwarearchitekten an Modellierungssprachen?
+  \item Welche Herausforderungen und Verbesserungspotenziale sehen Softwarearchitekten bei der Anwendung bestehender Modellierungssprachen?
+\end{itemize}
 
 Um die Forschungsfragen präzise beantworten zu können erfordert ein erster Schritt die Begrifflichkeiten zu klären.
 
 Thematisch relevant sind die Begriffe:\\
- 
-\tab•	Softwarearchitektur \\
-\tab•	Modellierungssprache \\
-\tab•	Anforderungen\\
+\begin{itemize}
+  \item Softwarearchitektur
+  \item Modellierungssprache
+  \item Anforderungen
+\end{itemize}
 
 
-Das Ziel besteht darin, durch Interviews eine ein tiefes Verständnis der Nutzerperspektive zu gewinnen und Empfehlungen zu formulieren, die zur Optimierung bestehender Modellierungswerkzeuge beitragen können. Die Ergebnisse dieser Studie sollen dazu beitragen, die Entwicklung und Verbesserung von Modellierungswerkzeugen zu leiten, die ideal auf die spezifischen Anforderungen der Anwender abgestimmt sind.
-Um dieses Ziel zu erreichen wird die im kommenden Abschnitt beschriebene Methodik angewandt.
+Das Ziel besteht darin, durch Interviews ein tiefes Verständnis der Nutzerperspektive zu gewinnen und Empfehlungen zu formulieren, die zur Optimierung bestehender Modellierungswerkzeuge beitragen können. Die Ergebnisse dieser Studie dienen der Entwicklung und Verbesserung von Modellierungswerkzeugen zu leiten, die ideal auf die spezifischen Anforderungen der Anwender abgestimmt sind.
+Um dieses Ziel zu erreichen, wird die im kommenden Abschnitt beschriebene Methodik angewandt.
 
 \section{Aufbau der Arbeit und Methodik}
 
-Um die Forschungsfragen wissenschaftlich beantworten zu können, wird eine nachvollziehbare Struktur benötigt. Nachfolgend wird der grundlegende Aufbau dargestellt. Das erste Kapitel dient der Einführung in die Thematik und Vorstellung der Problemstellung.
+Um die Forschungsfragen auf wissenschaftlicher Basis beantworten zu können, wird eine nachvollziehbare Struktur des Forschungsaufbaus benötigt. Nachfolgend wird der grundlegende Aufbau dargestellt. Das erste Kapitel dient der Einführung in die Thematik und Vorstellung der Problemstellung.
 
-Im Zweiten Kapitel werden die theoretisch und praktischen Grundlagen, die den Rahmen für diese Qualifikationsarbeit bilden. Die Definition der Zentralen Begrifflichkeiten im Kontext der Softwarearchitektur erläutert, bevor zentrale Modellierungssprachen vorgestellt werden (Abscnitt 2.7). Der Abschluss des Kapitels stellt bereits bekannte Limitationen von Modellierungssprachen vor. Hierdurch ist zu erkennen, dass die in der Forschungspraxis, das Problemfeld bereits erkannt aber nicht abschließend gelöst werden konnte.
+Im zweiten Kapitel werden die theoretischen und praktischen Grundlagen, die den Rahmen für diese Qualifikationsarbeit bilden,dargestellt. Die Definition der zentralen Begrifflichkeiten werden im Kontext der Softwarearchitektur erläutert, bevor zentrale Modellierungssprachen vorgestellt werden. Der Abschluss des Kapitels stellt bereits bekannte Limitationen von Modellierungssprachen vor.
 
-Das dritte Kapitel widmet sich der Vorgehensweise und der Methodik der Arbeit. Hier wird das empirische Forschungsdesign erklärt und wie die Daten für die Auswertung erhoben werden. Bevor die Begründung für die Wahl des Forschungsdesigns das Kapitel abschließt.
+Das dritte Kapitel widmet sich der Vorgehensweise und der Methodik der Arbeit. Hier wird das empirische Forschungsdesign erklärt und die Art, wie die Daten für die Auswertung erhoben werden.
+Den Abschluss des Kapitels bildet die Begründung für die Wahl des Forschungsdesigns.
 
-Im Vierten Kapitel werden die Ergebnisse, die mithilfe der Vorgehensweise erarbeitet werden konnten vorgestellt. Hier wird der Interviewleitfaden vorgestellt, sowie die Ergebnisse der qualitativen Inhaltsanalyse.
+Im Vierten Kapitel werden die Ergebnisse, die mithilfe der Vorgehensweise erarbeitet werden konnten aufgezeigt. Hierzu werden die Ergebnisse der Auswertung der Interviews, die mithilfe der qualitativen Inhaltsanalyse ausgearbeitet wurden dargestellt.
 
-Im Anschluss werden die Ergebnisse in Kapitel 5 zur Diskussion gestellt. Welche Erkenntnisse und welcher Nutzen für die Praxis ergibt sich aus den durch die qualitative Inhaltsanalyse gewonnenen Material. Auch auf die Limitationen der Forschungsarbeit wird in diesem Kapitel eingegangen.
+Im Anschluss werden die Ergebnisse in Kapitel 5 zur Diskussion gestellt. Welche Erkenntnisse und welcher Nutzen für die Praxis ergibt sich aus den durch die qualitative Inhaltsanalyse gewonnenen Material. Auch auf die Limitationen der Forschungsarbeit wird in diesem Kapitel eingegangen. Ebenso wird die aktuelle Forschungspraxis in die Diskussion einbezogen.
 
-Das letzte Kapitel fasst noch einmal die wichtigsten Ergebnisse zusammen beantwortet die Forschungsfragen und gibt eien Ausblick in die Zukunft des Forschungsfeldes sowie möglichen Implikationen für die Praxis.
+Das letzte Kapitel fasst die wichtigsten Ergebnisse zusammen beantwortet die Forschungsfragen und gibt einen Ausblick in die Zukunft des Forschungsfeldes sowie möglichen Implikationen für die Praxis.
 
 
 

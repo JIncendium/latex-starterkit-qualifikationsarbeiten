@@ -5,34 +5,34 @@
 
 \lstset{language=C}
 
-\chapter{Theoretische und Praktische Grundlagen }
+\chapter{Theoretische und praktische Grundlagen }
 
-\section{Definition Zentraler Begriffe}
+\section{Definition zentraler Begriffe}
 
-Bevor die Forschungsfrage mithilfe der empirischien Forschung beantwortet werden kann ist eine Einordnung sowie die Definition der wichtigsten Begrifflichkeiten notwendig. Diese beginnt zunächst mit den wichtigsten Begrifflichkeiten in den kommenden Abschnitten bevor ausgewählte Modellierungssprachen  näher betrachtet werden.
+Bevor die Forschungsfrage mithilfe empirischer Forschung beantwortet werden kann, ist eine Einordnung der wichtigsten Begrifflichkeiten sowie deren jeweilige Definition notwendig. Diese beginnt zunächst mit den wichtigsten Begrifflichkeiten in den kommenden Abschnitten, bevor ausgewählte Modellierungssprachen  näher betrachtet werden.
 
 \subsection{Definition des Softwarearchitekturbegriffes}
 
-Der erste Begriff, der für das erste Verständnis benötigt wird, ist die Softwarearchitektur. 
-Die Softwarearchitektur lässt sich nach der wissenschaftlichen Literatur nicht mittels einer etablierten Beschreibung definieren, die allgemeine Geltung besitzt. Eine Annäherung an den Begriff wird daher zunächst über den Weg der Etymologie gewählt.
+Ein für das erste Verständnis benötigter Begriff, ist die Softwarearchitektur. 
+Die Softwarearchitektur lässt sich nach der wissenschaftlichen Literatur nicht mittels einer einzigen etablierten Beschreibung definieren, die allgemeine Gültigkeit besitzt. Eine Annäherung an den Begriff wird daher zunächst über den Weg der Etymologie gewählt.
 
-Der Begriff Softwarearchitektur setzt sich aus den beiden Wörtern Software und Architektur zusammen. Die strikte lexikalische Definition von ersterem lautet nach dem Lexikon der Informatik folgendermaßen: „Unter Software versteht man die Gesamtheit […] der Programme für Rechensysteme“
-\footnote{ H. Schneider, Lexikon Informatik und Datenverarbeitung, Oldenbourg Verlag, 1998, S. 787}.
-Sowie dem Begriff der Architektur, gleichbedeutend mit der Baukunst theoretisch-wissenschaftlicher Ausprägung.\footnote{Vgl. C. Höcker, Metzler Lexikon antiker Architektur – Sachen und Begriffe, J.B Metzler Verlag, 2008, S. 18} 
-Somit könne eine rein lexikalische zusammengesetzte Interpretation des Begriffes Softwarearchitektur folgendermaßen lauten: „Softwarearchitektur ist die theoretisch-wissenschaftliche Baukunst der Gesamtheit aller Programme für Rechensysteme“.
+Der Begriff Softwarearchitektur setzt sich aus den beiden Wörtern Software und Architektur zusammen. Die strikte lexikalische Definition von ersterem lautet nach dem Lexikon der Informatik folgendermaßen:
+„Unter Software versteht man die Gesamtheit […] der Programme für Rechensysteme“\footnote{ H. Schneider, Lexikon Informatik und Datenverarbeitung, Oldenbourg Verlag, 1998, S. 787}.
+Der Begriff der Architektur ist gleichbedeutend mit der Baukunst theoretisch-wissenschaftlicher Ausprägung.\footnote{Vgl. C. Höcker, Metzler Lexikon antiker Architektur – Sachen und Begriffe, J.B Metzler Verlag, 2008, S. 18} 
+Somit könnte eine rein lexikalische zusammengesetzte Interpretation des Begriffes Softwarearchitektur folgendermaßen lauten: „Softwarearchitektur ist die theoretisch-wissenschaftliche Baukunst der Gesamtheit aller Programme für Rechensysteme“.
 
-Vergleicht man diese kurze und zugleich inhaltlich sehr weit gefassten Definition mit den zahlreichen Definitionen in der wissenschaftlichen Literatur, so fällt auf, dass der Kern durch die rein etymologische Näherung erfasst ist. Es bedarf allerdings der näheren Betrachtung, der bereits vorhanden Definitionen, um zu einer geeigneten Begriffsformulierung für diese Arbeit zu gelangen. 
+Vergleicht man diese kurze und zugleich inhaltlich sehr weit gefasste Definition mit den zahlreichen Definitionen von Softwarearchitektur in der wissenschaftlichen Literatur, so fällt auf, dass der Kern durch die rein etymologische Näherung erfasst ist. Es bedarf allerdings der näheren Betrachtung, der bereits vorhanden Definitionen, um zu einer geeigneten Begriffsformulierung für diese Arbeit zu gelangen. 
 
-Allein in der vom Software Engineering Institute der Carnegie Mellon Univeristy veröffentlichten Publikation von verschiedenen Softwarearchitektur-Definititonen finden sich 29 verschiedene Interpretationen davon, was als Softwarearchitektur verstanden werden kann.
+Allein in der vom Software Engineering Institute der Carnegie Mellon Univeristy veröffentlichten Publikation zu verschiedenen Softwarearchitektur-Definitionen finden sich 29 verschiedene Interpretationen davon, was als Softwarearchitektur verstanden werden kann.
 \footnote{Carnegie Mellon University, https://insights.sei.cmu.edu/documents/2544/2010_010_001_513810.pdf aufgerufen am 12.05.2025}  
 
 Neben den Unterschieden in den einzelnen Begriffsdefinitionen lassen sich bei näherer Betrachtung allerdings nachstehende wiederkehrende Beschreibungen feststellen. So zählen die Organisation eines Softwaresystems, die Struktur der Architektur, die beteiligten Komponenten sowie die Unterteilung der Architektur in verschiedene Blickwinkel (Views) zu den mehrfach genannten Punkten. 
 \footnote{Carnegie Mellon University https://insights.sei.cmu.edu/documents/2544/2010_010_001_513810.pdf aufgerufen am 12.05.2025}  
 
-Eine der prominentesten Definitionen gibt das Institute of Electrical and Electronics Engineers (IEEE) ab. Hiernach ist Softwarearchitektur: die grundlegende Struktur eines Systems, verkörpert in seinen Komponenten, deren Beziehungen zueinander und zur Umgebung sowie den Prinzipien, die dessen Entwurf und Weiterentwicklung leiten.
-\footnote{Übersetzt aus dem Englischen ISO/IEC Standard for Systems and Software Engineering - Recommended Practice for Architectural Description of Software-Intensive Systems," in ISO/IEC 42010 IEEE Std 1471-2000 First edition 2007-07-15 , vol., no., pp.1-24, 15 July 2007, doi: 10.1109/IEEESTD.2007.386501. , S.3}
+Eine der prominentesten Definitionen gibt das Institute of Electrical and Electronics Engineers (IEEE) ab. Hiernach ist Softwarearchitektur: „die grundlegende Struktur eines Systems, verkörpert in seinen Komponenten, deren Beziehungen zueinander und zur Umgebung sowie den Prinzipien, die dessen Entwurf und Weiterentwicklung leiten“
+\footnote{Übersetzt aus dem Englischen ISO/IEC Standard for Systems and Software Engineering - Recommended Practice for Architectural Description of Software-Intensive Systems," in ISO/IEC 42010 IEEE Std 1471-2000 First edition 2007-07-15 , vol., no., pp.1-24, 15 July 2007, doi: 10.1109/IEEESTD.2007.386501. , S.3}.
 
-Ergänzt man nun die etymologische Erklärung des Begriffes mit den Schwerpunkten des wissenschaftlichen Diskurses, so entsteht für den Begriff Softwarearchitektur folgende Definition:
+Ergänzt man nun die etymologische Erklärung des Begriffes mit den Schwerpunkten des wissenschaftlichen Diskurses, so entsteht für den Begriff Softwarearchitektur für diese Arbeit folgende Definition:
 \\
 
 
@@ -43,24 +43,24 @@ Ergänzt man nun die etymologische Erklärung des Begriffes mit den Schwerpunkte
 
 Ein weiterer Begriff, der zum Verständnis der weiteren Vorgehensweise erforderlich ist, ist die Modellierungssprache. 	
 
-Auch dieser Begriff setzt sich aus zwei Teilen zusammen „Modellierung“ und „Sprache“.
+Auch dieser Begriff setzt sich aus zwei Teilen zusammen, „Modellierung“ und „Sprache“.
 Untersucht wird zunächst, was sich hinter dem Begriff Modellierung verbirgt. Modellierung ist die Bezeichnung zum Erstellen eines Modells. Der dahinter liegende Modellbegriff muss daher in einem ersten Schritt auch ergründet werden. Eine allgemeine Definition geben Frank et al \footnote{U. Frank, S. Strecker, P. Fettke et al. Das Forschungsfeld „Modellierung betrieblicher Informationssysteme“. Wirtschaftsinf 56, 49–54 (2014). https://doi.org/10.1007/s11576-013-0393-z
 
-}, wonach Modelle zu verstehen sind als zweckgerichtete Abstraktionen, die Komplexität reduzieren um ein Analyse- und Kommunikationsmedium zu schaffen.
+}, wonach Modelle zu verstehen sind als zweckgerichtete Abstraktionen, die Komplexität reduzieren, um ein Analyse- und Kommunikationsmedium zu schaffen.
 
-Modelle selbst können in drei Unterarten geteilt werden. Mathematische Modelle, die Modelle zur Theoriebildung und die Modelle als Abbild der Realität \footnote{Vgl. H. Schneider, Lexikon Informatik und Datenverarbeitung, a.a.O. S. 545 }.
+Modelle selbst können in drei Unterarten geteilt werden: mathematische Modelle, Modelle zur Theoriebildung und Modelle als Abbild der Realität \footnote{Vgl. H. Schneider, Lexikon Informatik und Datenverarbeitung, a.a.O. S. 545 }.
 
-Welcher Modellbegriff zur Anwendung kommt, hängt vom jeweiligen Anwendungsfall und der konkreten Zielsetzung ab. Das Fachgebiet der Wirtschaftsinformatik ist „darauf ausgerichtet Theorien, Methoden und Werkzeuge zu entwickeln, die Realisierung, Nutzung und Pflege betrieblicher Informationssysteme unterstützen“ \footnote{U. Frank, S. Strecker, P. Fettke et al. Das Forschungsfeld „Modellierung betrieblicher Informationssysteme“, a.a.O S. 49–54 (2014)}.
+Welcher Modellbegriff zur Anwendung kommt, hängt vom jeweiligen Anwendungsfall und der konkreten Zielsetzung ab. Das Fachgebiet der Wirtschaftsinformatik ist „darauf ausgerichtet Theorien, Methoden und Werkzeuge zu entwickeln, die Realisierung, Nutzung und Pflege betrieblicher Informationssysteme unterstützen“ \footnote{U. Frank, S. Strecker, P. Fettke et al., Das Forschungsfeld „Modellierung betrieblicher Informationssysteme“, a.a.O S. 49–54 (2014)}.
 Diese Zielsetzung gilt gleichermaßen für die hier aufgeworfenen Forschungsfragen. 
 
-Der mathematische Modellbegriff als erste Unterart ist mit seiner Beschränkung auf mathematische Aussagen und Strukturen \footnote{Siehe H. Schneider, Lexikon Informatik und Datenverarbeitung, a.a.O. S. 548}  nicht geeignet diese Zielsetzung zu erreichen. Da sich Softwarearchitektur nicht in seiner Komplexität mit mathematischen Formeln abbilden lässt.
+Der mathematische Modellbegriff als erste Unterart ist mit seiner Beschränkung auf mathematische Aussagen und Strukturen \footnote{Siehe H. Schneider, Lexikon Informatik und Datenverarbeitung, a.a.O. S. 548}  nicht geeignet diese Zielsetzung zu erreichen, da sich Softwarearchitektur nicht in seiner Komplexität mit mathematischen Formeln abbilden lässt.
  
 Das Modell zur Theoriebildung wird häufig in den Sozialwissenschaften genutzt, um mathematische quantifizierbare Aussagen zu treffen, wie z.B. bei einem Preisbildungsmodell.
 \footnote{Vgl. H. Schneider, Lexikon Informatik und Datenverarbeitung, a.a.O. S. 545}
 
-Auch dieser Begriff, ist mit Blick auf den Forschungsgegenstand nicht für die Verwendung zweckdienlich. Da Softwarearchitektur je nach anwendungsfall zu definieren ist, ist das Modell zur Theoriebildung nicht sinnvoll einsetzbar.
+Auch dieser Begriff ist mit Blick auf den Forschungsgegenstand nicht für die Verwendung zweckdienlich. Da Softwarearchitektur je nach Anwendungsfall zu definieren ist, ist das Modell zur Theoriebildung nicht sinnvoll einsetzbar.
 
-Der Modellbegriff als Abbildung der Realität wiederum, mit dessen Schwerpunkt, der abstrakt symbolischen Darstellungen ist geeignet genutzt zu werden. Durch den Einsatz dieser Modellart ist es möglich mit Hilfe geeignet gewählter Symbolik und einem passend gewählten Sprachsystem, das oben genannte Ziel zu erreichen.
+Der Modellbegriff als Abbildung der Realität wiederum, mit dessen Schwerpunkt der abstrakt symbolischen Darstellungen, ist geeignet genutzt zu werden. Durch den Einsatz dieser Modellart ist es möglich mit Hilfe geeignet gewählter Symbolik und einem passend gewählten Sprachsystem, das oben genannte Ziel zu erreichen.
 
 Der für die Qualifikationsarbeit zu definierende Modellbegriff wird in der unten Aufgeführten Übersicht unter dem Punkt der abstrakt symbolischen Modellart eingeordnet.
 
@@ -73,17 +73,18 @@ Der für die Qualifikationsarbeit zu definierende Modellbegriff wird in der unte
     \label{fig:abc}
 \end{figure}
 
-Der zweite Teil des Begriffes Modellierungssprache., die Sprachen, sind nach dem Gabler Wirtschaftslexikon Systeme der Kommunikation, die bezogen auf die Logik und Informatik formale Darstellungen von Aussagen, den Austausch und die Übertragung von Daten und Informationen ermöglichen, ebenso wie die Interaktion von Mensch und Computer.
+Der zweite Teil des Begriffes Modellierungssprache, die Sprache, ist nach dem Gabler Wirtschaftslexikon: Systeme der Kommunikation, die bezogen auf die Logik und Informatik formale Darstellungen von Aussagen, den Austausch und die Übertragung von Daten und Informationen ermöglichen, ebenso wie die Interaktion von Mensch und Computer.
 \footnote{Vgl. Gabler Wirtschaftslexikon, https://wirtschaftslexikon.gabler.de/definition/sprache-124739/version-388115 aufgerufen am 12.05.2025}
 
 Neben dieser lexikalischen begrifflichen Einordnung sind weiter die vier wesentlichen Merkmale von Modellierungssprachen zu beachten:
-\footnote{K. Kurbel, Modellierung betrieblicher Informationssysteme – Modelle Methoden und Werkzeuge, de Gruyter, Berlin/Boston 2024 S. 7 f} \\
+\footnote{K. Kurbel, Modellierung betrieblicher Informationssysteme – Modelle Methoden und Werkzeuge, de Gruyter, Berlin/Boston 2024 S. 7f} \\
 
+\newcommand{\tab}{\hspace*{2em}}
  
-\tab•	Symbole - textliches oder graphisches Element \\
-\tab•	Syntax - definiert wie Symbole angeordnet und benutzt werdenModellierungssprache \\
-\tab•	Semantik -beschreibt die Bedeutung der vorhandenen Symbole Anforderungen\\
-\tab•	Grammatik (oder Metamodell)- gibt Regeln für die Verwendung der Symbole vor.\\
+\tab•	Symbole - textliches oder grafisches Element \\
+\tab•	Syntax - definiert wie Symbole angeordnet und benutzt werden  \\
+\tab•	Semantik -beschreibt die Bedeutung der vorhandenen Symbole\\
+\tab•	Grammatik (oder Metamodell)- gibt Regeln für die Verwendung der Symbole vor\\
 
 Das Ergebnis ist meist ein Modell der Architektur in graphischer Form, seltener in Textform.
 
@@ -96,13 +97,13 @@ Zusammenfassend wird der Begriff der Modellierungssprache für das Ziel dieser A
 \subsection{Definition Anforderungen}
 
 
-Um die Anforderungen an Modellierungssprachen, den Kern der Forschungsfrage herausarbeiten zu können, bedarf auch der Anforderungsbegriff einer eindeutigen Klärung. 
+Um die Anforderungen an Modellierungssprachen, den Kern der Forschungsfrage herausarbeiten zu können, bedarf auch der Anforderungsbegriff einer eindeutigen Klärung für ein gemeinsames Verständnis. 
 
-Auch hier bietet sich eine Annäherung über die allgemeine Bedeutung der Begrifflichkeit von Anforderungen zum Verständnis des Begriffes in der Informatik an, bevor diskutiert wird, ob die bestehenden Definitionen für diese Qualifikationsarbeit passend ist oder mit Blick auf den konkreten Bezug zu Modellierungssprachen eine Anpassung erfolgen muss.
+Auch hier bietet sich eine Annäherung über die allgemeine Bedeutung der Begrifflichkeit von Anforderungen zum Verständnis des Begriffes in der Informatik an, bevor diskutiert wird, ob die bestehenden Definitionen für diese Qualifikationsarbeit passend sind oder mit Blick auf den konkreten Bezug zu Modellierungssprachen eine Anpassung erfolgen muss.
 
-Nach der lexikalischen Bedeutung sind Anforderungen als Anspruch bzw. Forderung an jemandes Leistung o. Ä. zu verstehen.\footnote{https://www.duden.de/node/6189/revision/1361659 aufgerufen am 25.01.2026}Diese Bedeutung wird von Balzert aufgegriffen und angepasst. Hiernach legen Anforderungen fest, welche Eigenschaften man von einem Softwaresystem erwartet.\footnote{Vgl. H. Balzert, Lehrbuch der Softwaretechnik – Basiskonzepte und Requirementsengineering, Spektrum akademischer Verlag 2009, S.455} Dabei ist zu beachten, dass „man“ hier ein Platzhalter für Stakeholder, Akteur, oder Interessenvertreter zu verstehen ist. Während der Begriff „Eigenschaften“ je nach Anwendungsfall näher spezifiziert werden muss. Diese werden unterschieden in funktionale und nichtfunktionale Anforderungen. Diese Unterscheidung wird an späterer Stelle aufgegriffen.
+Nach der lexikalischen Bedeutung sind Anforderungen als Anspruch bzw. Forderung an jemandes Leistung o. Ä. zu verstehen.\footnote{https://www.duden.de/node/6189/revision/1361659 aufgerufen am 25.01.2026}Diese Bedeutung wird von Balzert aufgegriffen und angepasst. Hiernach legen Anforderungen fest, welche Eigenschaften man von einem Softwaresystem erwartet.\footnote{Vgl. H. Balzert, Lehrbuch der Softwaretechnik – Basiskonzepte und Requirementsengineering, Spektrum akademischer Verlag 2009, S.455} Dabei ist zu beachten, dass „man“ hier ein Platzhalter für Stakeholder, Akteur, oder Interessenvertreter zu verstehen ist, während der Begriff „Eigenschaften“ je nach Anwendungsfall näher spezifiziert werden muss. Diese werden unterschieden in funktionale und nichtfunktionale Anforderungen. Diese Unterscheidung wird an späterer Stelle aufgegriffen.
 
-Die Definition von Anforderungen nach Pohl in seinem Standardwerk „Requirements Engineering“ ist die Definition des IEEE:\footnote{Requirements Engineering – Fundamentals, Principles, and technieques, Springer, 2010 , S.16}
+Die Definition von Anforderungen nach Pohl in seinem Standardwerk „Requirements Engineering“ ist die Definition des IEEE:\footnote{K.Pohl, Requirements Engineering – Fundamentals, Principles, and technieques, Springer, 2010 , S.16}
 
 % hier evtl nochmal nacharbeiten
 % kursive Darstellung noch nicht optimal
@@ -113,7 +114,7 @@ Die Definition von Anforderungen nach Pohl in seinem Standardwerk „Requirement
 \begin{itshape} % ganze Umgebung kursiv
 
 Requirement:\\
-(1)	a condition or capability needed by a user to solve a problem or archieve an objective 
+(1)	A condition or capability needed by a user to solve a problem or archieve an objective 
 
 (2)	A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification, or other formally imposed documents
 
@@ -126,30 +127,26 @@ Eine weitere Definition zu Anforderungen liefert Ebert:\textit{„Eine Anforderu
 
 Ebert grenzt das Produkt in seiner Definition noch weiter ein, da er ein Produkt ausschließlich als eines der folgenden Objekte sieht: Anwendungen, IT-Systeme, eingebettete Software, IT-Lösungen sowie Dienstleistungen.
 
-Nach diesen Vorbedingungen so Ebert, ist eine Anforderung zu subsumieren als Eigenschaft oder Bedingung, die von einem Nutzer zur Lösung eines Problems oder zur Erreichung eines Ziels benötigt wird. Ebenso ist sie Eigenschaft oder Bedingung, die ein System erfüllen muss, um einen Vertrag, eine Norm oder andere formell vorgegebene Dokumente zu erfüllen. Darüber hinaus hat sie dokumentieren Charakter, die die vorgenannten Punkte repräsentiert.\footnote{ Vgl. C. Ebert, Systematisches Requirements Engineering – Anforderungen ermitteln, dokumentieren, analysieren und verwalten, a.a.O., S.21f}
+Nach diesen Vorbedingungen, so Ebert, ist eine Anforderung zu subsumieren als Eigenschaft oder Bedingung, die von einem Nutzer zur Lösung eines Problems oder zur Erreichung eines Ziels benötigt wird. Ebenso ist sie Eigenschaft oder Bedingung, die ein System erfüllen muss, um einen Vertrag, eine Norm oder andere formell vorgegebene Dokumente zu erfüllen. Darüber hinaus hat sie dokumentierenden Charakter, der die vorgenannten Punkte repräsentiert.\footnote{ Vgl. C. Ebert, Systematisches Requirements Engineering – Anforderungen ermitteln, dokumentieren, analysieren und verwalten, a.a.O., S.21f}
 
 Hier fällt auf, dass Ebert die Definition des IEEE nahezu wörtlich übernommen hat.
 Die Definition des IEEE wird auch in den Werken von Hammerschall und Beneken \footnote{U. Hammerschall, G. Beneken, Software Requirements,Pearson, 2013, S. 28} sowie Partsch übernommen. \footnote{H. Partsch, Requirements Engineering, Oldenourg Verlag, 1991, S. 34 }
 
 Eine weitere Dimension der Anforderungsbetrachtung eröffnet Ebert durch die Einbeziehung der Kundensicht. Aus der Kundenperspektive ist ein Produkt immer dann erfolgreich, wenn es den Bedürfnissen des Kunden in seiner Umgebung gerecht wird. Diese Bedürfnisse werden durch Anforderungen kommuniziert. Ebert weist darauf hin, dass hier die Anforderungen beschreiben sollen, was ein Ziel (des Kunden) ist. Während der nächste Schritt, die Lösung für den Kunden beschreiben soll, wie das zuvor beschriebenen Ziel erreicht wird.
 
-Zusammengefasst sind Anforderungen Aussagen über zu erbringende Leistungen des Produkts. Diese Aussagen oder Eigenschaften lassen sich im Bereich Software-Engineering in weitere zwei Gruppen unterteilen. 
-In funktionalen Anforderungen und nicht-funktionalen Anforderungen.
+Zusammengefasst sind Anforderungen: Aussagen über zu erbringende Leistungen des Produkts. Diese Aussagen oder Eigenschaften lassen sich im Bereich Software-Engineering in weitere zwei Gruppen unterteilen. 
+In funktionale Anforderungen und nicht-funktionale Anforderungen.
 
-Funktionale Anforderungen legen für eine vom Softwaresystem oder einer seiner Komponenten bereitzustellende Funktionen oder Services fest \footnote{H. Partsch Requirements Engineering systematisch, Springer , 2010, S.25}. Die nicht funktionalen Anforderungen wiederum lassen sich gliedern in Anforderungen, die die Statik, die die Dynamik oder die die Logik eines Systems beschreiben. Zu den funktionalen Anforderungen zählen Beispielsweise: Genauigkeit, Verfügbarkeit, Nebenläufigkeit, Konsumierbarkeit (als Obermenge der Benutzbarkeit), Internationalisierung, Zuverlässigkeit, Sicherheit, Serviceanforderungen.
+Funktionale Anforderungen legen für eine vom Softwaresystem oder einer seiner Komponenten bereitzustellende Funktionen oder Services fest \footnote{H. Partsch Requirements Engineering systematisch, Springer , 2010, S.25}. Die nicht funktionalen Anforderungen wiederum lassen sich gliedern in Anforderungen, welche die Statik, die Dynamik oder die Logik eines Systems beschreiben. Zu den funktionalen Anforderungen zählen beispielsweise: Genauigkeit, Verfügbarkeit, Nebenläufigkeit, Konsumierbarkeit (als Obermenge der Benutzbarkeit), Internationalisierung, Zuverlässigkeit, Sicherheit und Serviceanforderungen.
 
-Die Nicht-funktionalen Anforderungen lassen sich besser als Qualitätsforderungen bezeichnen. Zu diesen zählen: Qualität der Nutzung, Qualität der Entwicklung, Qualität im Betrieb und Qualität der Vermarktung.\footnote{M. Broy, et al, Einführung in die Softwaretechnik, Springer 2021 S.  } 
-%%
-%
-%hier fehlt noch die Seite in der Fußnote
-%
-%
+Die Nicht-funktionalen Anforderungen lassen sich besser als Qualitätsforderungen bezeichnen. Zu diesen zählen: Qualität der Nutzung, Qualität der Entwicklung, Qualität im Betrieb und Qualität der Vermarktung.\footnote{M. Broy et al., Einführung in die Softwaretechnik, Springer 2021, S. 207f} 
 
-Nachdem der Begriff Anforderungen in der Informatik sehr zielgerichtet auf Software und Softwareentwicklung ausgelegt ist, sind Überlegungen anzustellen, ob Anforderungen an Modellierungssprachen, sich in dieses Gerüst einfügen, oder ob hier eine Anpassung der Anforderungsbegrifflichkeiten notwendig ist. 
 
-Da eine Modellierungssprache zunächst keine Software ist, sondern eine formalisierte Sprache um Modelle zu abstrahieren, erscheint die Unterteilung in funktionale und nicht funktionale Anforderungen zunächst nicht zweckdienlich. Wenn man jedoch Argumentation folgt, dass Modellierungssprachen hingegen erst mit entsprechender Softwareunterstützung sinnvoll verwendet werden können, wäre die Einteilung in die Softwareanforderungssystematik wieder denkbar. 
+Nachdem der Begriff Anforderungen in der Informatik sehr zielgerichtet auf Software und Softwareentwicklung ausgelegt ist, sind Überlegungen anzustellen, ob sich Anforderungen an Modellierungssprachen in dieses Gerüst einfügen, oder ob hier eine Anpassung der Anforderungsbegrifflichkeiten erforderlich ist. 
 
-In der wissenschaftlichen Literatur sind eine ganze Reihe von generischen Anforderungen definiert, welche Softwaremodellierungssprachen erfüllen sollen. So lassen sich die insgesamt 33 formulierten Kriterien von S. Patig\footnote{S. Pattig, Die Evolution von Modellierungssprachen, Frank \& Timme, 2006 S. 57ff}, A. Drescher et al \footnote{A. Drescher et al, Modellierung und Analyse von Geschäftsprozessen, 2017 S. 35ff}, Schalles et al \footnote{C. Schalles et al, Ein generischer Ansatz zur Messung der Benutzerfreundlichkeit von Modellierungssprachen, 2010 } und U. Frank \footnote{U. Frank, Outline of a method for designing domain-specific modelling languages, 2013, S 3 Helmut Balzert, Lehrbuch der Softwaretechnik – Basiskonzepte und Requirementsengineering, Spektrum akademischer Verlag 2009, S.456} aufgrund ihrer Ähnlichkeiten in folgende Anforderungsgruppen, wie in Tabelle 2.1 aufgelistet, zusammenfassen.
+Da eine Modellierungssprache zunächst keine Software ist, sondern eine formalisierte Sprache um Modelle zu abstrahieren, erscheint die Unterteilung in funktionale und nicht funktionale Anforderungen zunächst nicht zweckdienlich. Wenn man jedoch der Argumentation folgt, dass Modellierungssprachen hingegen erst mit entsprechender Softwareunterstützung sinnvoll verwendet werden können, wäre die Einteilung in die Softwareanforderungssystematik wieder denkbar. 
+
+In der wissenschaftlichen Literatur sind eine ganze Reihe von generischen Anforderungen definiert, welche Softwaremodellierungssprachen erfüllen sollen. So lassen sich die insgesamt 33 formulierten Kriterien von S. Patig\footnote{S. Pattig, Die Evolution von Modellierungssprachen, Frank \& Timme, 2006 S. 57ff}, A. Drescher et al \footnote{A. Drescher et al, Modellierung und Analyse von Geschäftsprozessen, 2017 S. 35ff}, Schalles et al \footnote{C. Schalles et al, Ein generischer Ansatz zur Messung der Benutzerfreundlichkeit von Modellierungssprachen, Gesellschaft für Informatik e.V., 2010, S. 16ff } und U. Frank \footnote{U. Frank, Outline of a method for designing domain-specific modelling languages, 2013, S 3 Helmut Balzert, Lehrbuch der Softwaretechnik – Basiskonzepte und Requirementsengineering, Spektrum akademischer Verlag 2009, S. 456} aufgrund ihrer Ähnlichkeiten in folgende Anforderungsgruppen, wie in Tabelle 2.1 auf Seite 12 aufgelistet, zusammenfassen.
 
 \begin{table}[h!]
 \centering
@@ -162,13 +159,13 @@ In der wissenschaftlichen Literatur sind eine ganze Reihe von generischen Anford
 \midrule
 1 & Verständlichkeit und Benutzerfreundlichkeit & Verständlichkeit, Benutzerfreundlichkeit, Einfachheit, Natürlichkeit \\
 \midrule
-2 & Eindeutigkeit und Klarheit & Bedeutungseindeutigkeit, Äußerungseindeutigkeit, Bezeichnungseindeutigkeit, Ontologische Klarheit \\
+2 & Eindeutigkeit und Klarheit & Bedeutungseindeutigkeit, Äußerungseindeutigkeit, Bezeichnungseindeutigkeit, ontologische Klarheit \\
 \midrule
-3 & Vollständigkeit und Ausdrucksmächtigkeit & Ausdrucksmächtigkeit, Ausdrucksstärke, formale Vollständigkeit, Ontologische Vollständigkeit \\
+3 & Vollständigkeit und Ausdrucksmächtigkeit & Ausdrucksmächtigkeit, Ausdrucksstärke, formale Vollständigkeit, ontologische Vollständigkeit \\
 \midrule
 4 & Erweiterbarkeit und Anpassbarkeit & Erweiterbarkeit, Offenheit, dynamische Anpassbarkeit \\
 \midrule
-5 & Abstraktion, Modularität und Struktur & Abstraktion, Orthogonalität, Kompaktheit, Strukturierte Trennung von Abstraktionsebenen \\
+5 & Abstraktion, Modularität und Struktur & Abstraktion, Orthogonalität, Kompaktheit, strukturierte Trennung von Abstraktionsebenen \\
 \midrule
 6 & Formale Korrektheit und Präzision & Korrektheit, Formalisierungsgrad, Präzisierungsgrad, Notation \\
 \midrule
@@ -180,7 +177,7 @@ In der wissenschaftlichen Literatur sind eine ganze Reihe von generischen Anford
 \end{table}
 
 Eine Einordnung dieser Anforderungen an Modellierungssprachen in funktionale und nicht funktionale Anforderungen könnte wie folgt aussehen: 
-Funktional einzuordnen wären (3) Vollständigkeit und Ausdrucksstärke. Hier muss die Sprache in der Lage sein alle relevanten Konzepte des Anwendungsbereiches abzubilden. (6) Formale Korrektheit, eine klar definierte Syntax, die maschinell überprüfbar sein muss.
+funktional einzuordnen wären (3) Vollständigkeit und Ausdrucksstärke. Hier muss die Sprache in der Lage sein alle relevanten Konzepte des Anwendungsbereiches abzubilden. (6) Formale Korrektheit, eine klar definierte Syntax, die maschinell überprüfbar sein muss.
 
 Eine nicht funktionale Anforderung nach den Kriterien wäre die (4) Erweiterbarkeit. Dieses Kriterium bedeutet, dass die Sprache sich zukünftig um neue Konstrukte erweitern lässt.
 
@@ -188,45 +185,45 @@ Schwierigkeiten die Anforderungen an Modellierungssprachen in die Einteilung fun
 
 Diese nicht trennscharfe Einordnung trifft auch den Aspekt der Natürlichkeit, die Sprache entspricht dem natürlichen Denken der Nutzer. Dies kann nur funktional durch die Notation gelöst werden. Die Natürlichkeit wird wiederrum direkt unterstützt durch die Werkzeugunterstützung und die damit einhergehenden (graphischen) Visualisierungsmöglichkeiten.
 
-Bereits die Betrachtung der vorgenannten Punkte, lässt es sinnvoll erscheinen, eine andere Unterscheidung von Anforderungen an Modellierungssprachen zu diskutieren. 
+Bereits die Betrachtung der vorgenannten Punkte lässt es sinnvoll erscheinen eine andere Unterscheidung von Anforderungen an Modellierungssprachen zu diskutieren. 
 
 Eine Systematisierung von Anforderungen für Modellierungssprachen liefert Frank. Nach ihm können Anforderungen in drei Arten unterteilt werden \footnote{U. Frank, et al., Anforderungen an Sprachen zur Modellierung von Geschäftsprozessen,2003 S.25ff}.
 
-Eine Systematisierung von Anforderungen für Modellierungssprachen liefert Frank. Nach ihm können Anforderungen in drei Arten unterteilt werden .
 Erstens formale Anforderungen. Diese zielen auf die Überprüfung der Integrität von Modellen, die Transformation bzw. die Berechnung von Modelleigenschaften ab. Unter diesen Punkt fallen nach Tabelle 1 u. a. Punkte (3) Vollständigkeit und (6) formale Korrektheit. Zweitens die anwenderbezogenen Anforderungen, die das Verhältnis des Anwenders zu den bereitgestellten Konzepten sowie deren Visualisierung betreffen. Und drittens, die anwendungsbezogenen Anforderungen, die sich auf die Eigenschaften der Modellierungssprache beziehen, die einen allgemeinen Bezug zu Modellierungszwecken und -domänen besitzen. Auch hier ist eine klare Abgrenzung der Kategorien nicht immer möglich, da die Kategorien gegenseitige Abhängigkeiten aufweisen. 
 
 Da die Kategorien von Frank sich speziell auf Modellierungssprachen bezieht, ist diese Einteilung besser geeignet die Anforderungen, die Softwarearchitekten an Modellierungssprachen haben könnten, abzubilden. Die Anforderungseinteilung aus dem Requirements-Engineerung bzw. der Softwaretechnik zielt mit ihrem Schwerpunkt auf Softwareentwicklung und wäre eher für eine auf Anwendungsentwickler ausgerichtete Forschungsarbeit geeignet. 
 
 
 
-\section{aktuelles Bild der Softwarearchitektur}
+\section{Aktuelles Bild der Softwarearchitektur}
 
 \section{Landschaft der Modellierungssprachen}
 
-Im Bereich der Softwarearchitektur haben sich eine Vielzahl von Modellierungssprachen etabliert. Diese werden über die Softwareentwicklung hinaus zur Darstellung ganz unterschiedlicher Zielsetzungen eingesetzt. Die in den folgenden Abschnitten vorgestellten Beispiele von Modellierungssprachen sind mit Blick auf die Forschungsfrage bewusst ausgewählt. Es handelt sich hierbei um die Modellierungssprachen, die von den Interviewpartnern in der Praxis verwendet werden, gleiches gilt für die ausgewählten Beispiele der Diagrammtypen einzelner Modellierungssprachen. Die folgenden Modellierungssprachen werden nun erläutert: Die Unified Modeling Language (UML), die System Modeling Language (SysML), Business Process Model an Notation (BPMN) und Architecture Modeling Language (Archimate).
+Im Bereich der Softwarearchitektur haben sich eine Vielzahl von Modellierungssprachen etabliert. Diese werden über die Softwareentwicklung hinaus zur Darstellung ganz unterschiedlicher Zielsetzungen eingesetzt. Die in den folgenden Abschnitten vorgestellten Beispiele von Modellierungssprachen sind mit Blick auf die Forschungsfrage bewusst ausgewählt. Es handelt sich hierbei um die Modellierungssprachen, die von den Interviewpartnern in der Praxis verwendet werden. Gleiches gilt für die ausgewählten Beispiele der Diagrammtypen einzelner Modellierungssprachen. Die folgenden Modellierungssprachen werden nun erläutert: die Unified Modeling Language (UML), Business Process Model an Notation (BPMN) und Architecture Modeling Language (Archimate) und Entity-Relationsship-Modell (ERM)
 
  
 
 \subsection{Beispiel UML}
 
-Die Modellierungssprache Unified Modelling Language kurz UML ist als allgemein nutzbare Modellierungssprache konzipiert. Durch die Bereitstellung von vielen Diagrammarten und Notationselementen ist sie für mehr Einsatzfelder als ausschließlich die Softwareentwicklung geeignet. Die Diagrammtypen ermöglichen sowohl dynamische als auch statische Elemente beliebiger Anwendungsgebiete zu modellieren. Die Sprache bietet einige Vorteile für ihre Verwendung. Sie gilt unter anderem als eine sehr ausdrucksstarke, verständliche Modellierungssprache. Ein großer Vorteil ist die weltweite Akzeptanz von UML. Die Object Mangagement Group mit mehr als 800 teilnehmenden Unternehmen, ist für die Spezifikation verantwortlich.\footnote{Vgl. C. Kecher et al, UML 2.5 Das umfassende Handbuch, 2018, S.20f}. UML ist darüber hinaus eine von fünf Modellierungssprachen, die für die Prozessmodellierung in der deutschen Verwaltung genutzt werden muss.\footnote{Bundesministerium des Innern (Hrsg.): IT‑Architekturrichtlinie des Bundes, 2025, online unter: https://www.cio.bund.de/SharedDocs/downloads/Webs/CIO/DE/digitaler-wandel/architekturen-standard/ArchRL.pdf, abgerufen am 10.01.2026.}
+Die Modellierungssprache Unified Modelling Language kurz UML ist als allgemein nutzbare Modellierungssprache konzipiert. Die erste Version Sprache wurde mit UML 1.0 im Januar 1997 offiziell verabschiedet. Die aktuelle Version 2.5 wird aktuell Verwendet.\footnote{C.Kecher et al., UML 2.5 Das umfassende Handbuch, Rheinwerk Computing, 2018, S. 23f} Durch die Bereitstellung von vielen Diagrammarten und Notationselementen ist sie für mehr Einsatzfelder als ausschließlich die Softwareentwicklung geeignet. Die Diagrammtypen ermöglichen sowohl dynamische als auch statische Elemente beliebiger Anwendungsgebiete zu modellieren. Die Sprache bietet einige Vorteile für ihre Verwendung. Sie gilt unter anderem als eine sehr ausdrucksstarke, verständliche Modellierungssprache. Ein großer Vorteil ist die weltweite Akzeptanz von UML. Die Object Mangagement Group mit mehr als 800 teilnehmenden Unternehmen, ist für die Spezifikation verantwortlich.\footnote{Vgl. C. Kecher et al, UML 2.5 Das umfassende Handbuch, a. a. O., S.20f}. UML ist darüber hinaus eine von fünf Modellierungssprachen, die für die Prozessmodellierung in der deutschen Verwaltung genutzt werden muss.\footnote{Bundesministerium des Innern (Hrsg.): IT‑Architekturrichtlinie des Bundes, 2025, online unter: https://www.cio.bund.de/SharedDocs/downloads/Webs/CIO/DE/digitaler-wandel/architekturen-standard/ArchRL.pdf, abgerufen am 10.01.2026.}
 
-\textcolor{red}{ Evtl. Bild aller Diagrammtypen einfügen file:///C:/Users/jonat/Downloads/10.1515_9783110494532-1.pdf}    
+   
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Kapitel_2_UML_Diagrammtypen.png}
+    \caption{Übersicht der UML-Diagrammtypen in Anlehung an Kecher et al., 2018}
+    \label{fig:uml-diagrammtypen}
+\end{figure}
 
 
-UML bietet 15 unterschiedliche Diagrammtypen die sich in drei Diagrammkategorien unterscheiden lassen. Hierzu zählen die Strukturdiagramme, die Verhaltensdiagramme und die Interaktionsdiagramme. Ein Beispiel für ein Strukturdiagrammtyp ist das Klassendiagramm, welches ein zentraler Teil der Modellierungssprache UML darstellt. Klassendiagramme werden verwendet um Attribute von Systeme und statische Bestandteile zu zeigen, sowie deren Beziehungen untereinander.\footnote{Vgl.C. Kecher et al, UML 2.5 Das umfassende Handbuch, 2018, S.37}
+UML bietet 14 unterschiedliche Diagrammtypen die sich in drei Diagrammkategorien unterscheiden lassen. Hierzu zählen die Strukturdiagramme, die Verhaltensdiagramme und die Interaktionsdiagramme. Ein Beispiel für ein Strukturdiagrammtyp ist das Klassendiagramm, welches ein zentraler Teil der Modellierungssprache UML darstellt. Klassendiagramme werden verwendet um Attribute von Systeme und statische Bestandteile zu zeigen, sowie deren Beziehungen untereinander.\footnote{Vgl.C. Kecher et al., UML 2.5 Das umfassende Handbuch, a. a. O., S.37}
 
-\textcolor{red}{ Evtl. Bild von Klassendiagramm einfügen}
+Ein Zustandsdiagramm  wäre ein Beispiel für ein Verhaltensdiagramm. Mit diesem Diagrammtyp wird das dynamische Verhalten eines Systems modelliert. Zustandsdiagramme legen dabei den Fokus auf die Reaktionen des Systems. Das Verhalten von Benutzeroberflächen lässt sich mit diesem Typ sehr gut abbilden. \footnote{Vgl. C. Kecher et al., UML 2.5 Das umfassende Handbuch, a. a. O., S. 305}
 
-Ein Zustandsdiagramm  wäre ein Beispiel für ein Verhaltensdiagramm. Mit diesem Diagrammtyp wird das dynamische Verhalten eines Systems modelliert. Zustandsdiagramme legen dabei den Fokus auf die Reaktionen des Systems. Das Verhalten von Benutzeroberflächen lässt sich mit diesem Typ sehr gut abbilden. \footnote{Vgl. C. Kecher et al, UML 2.5 Das umfassende Handbuch, 2018, S.305}
+Ein Beispiel für die dritte Diagrammkategorie der Interkationsdiagramme, ist das Sequenzdiagramm. Dieser Diagrammtyp modelliert Interaktionen zwischen Objekten. Sie unterstützen das Verständnis in der Analysephase von Softwareentwicklung, welche Akteure (Systeme und Personen) in welcher Weise untereinander in Interaktion treten. \footnote{Vgl. C. Kecher et al., UML 2.5 Das umfassende Handbuch,a. a. O. S. 351}
 
-\textcolor{red}{ Evtl. Bild von Klassendiagramm einfügen}
-
-Ein Beispiel für die dritte Diagrammkategorie, den Interkationsdiagrammenm, ist das Sequenzdiagramm. Dieser Diagrammtyp modelliert und Interaktionen zwischen Objekten, sie unterstützen das Verständnis in der Analysephase von Softwareentwicklung, welche Akteure (Systeme und Personen) in welcher Weise untereinander in Interaktion treten. \footnote{Vgl. C. Kecher et al, UML 2.5 Das umfassende Handbuch, 2018, S.351}
-
-\textcolor{red}{ Evtl. Bild von Sequenzdiagramm einfügen}
-
-Im folgenden Abschnitt wird die Modellierungssprache BPMN vorgestellt
+Im folgenden Abschnitt wird die Modellierungssprache BPMN vorgestellt.
 
 \subsection{Beispiel BPMN}
 
@@ -234,15 +231,12 @@ Die Modellierungssprache Business Modell and Notation (BPMN) ist ebenfalls ein v
 
 Sie ist sowohl für Geschäftsprozessmodellierung als auch die Unterstützung von Prozessimplementierung  geeignet. Eines der Hauptziele bei der Konzeption der Sprache war eine leichte Verständlichkeit der Sprache für alle Anwendergruppen. Hierzu zählen neben den Entwicklern auch die Fachbereichsmitarbeiter und das Management. Auch wurde BPMN mit Blick auf Interoperatibilität zwischen Toolanbietern entwickelt.\footnote{Object Management Group(Hrsg.): BPMN Version 2.0.2 online unter: https://www.omg.org/spec /BPMN/2.0.2/PDF, abgerufen am 11.01.2026}
 
-Auch bei BPMN existieren Verschiedene Diagrammtypen, um die verschiedene Sichtweisen und Abläufe darstellen zu können. Diese sind im einzelnen, die Kollarboration, der Prozess, die Choreographie und die Konversation. \footnote{A. Drescher, Modellierung und Analyse von Geschäftsprozessen- Grundlagen und Übungsaufgaben mit Lösungen, 2017 S.39f}
-
-\textcolor{red}{ Evtl. Tabelle mit den Diagrammtypen einfügen}
-
+Auch bei BPMN existieren verschiedene Diagrammtypen, um die verschiedene Sichtweisen und Abläufe darstellen zu können. Diese sind im einzelnen die Kollarboration, der Prozess, die Choreographie und die Konversation. \footnote{A. Drescher, Modellierung und Analyse von Geschäftsprozessen- Grundlagen und Übungsaufgaben mit Lösungen, 2017 S.39f}
 
 
 \subsection{Beispiel Archimate}
 
-Die Archimate 3.2 ist als aktuellste Version seit Oktober 2022 verfügbar. Sie wird von der Open Group veröffentlicht, eine Organistaion mit über 900 Mitgliedern aus Wirtschaft und Forschung.\footnote{The Open Group, Liste der Mitglieder, online unter: https://reports.opengroup.org/all.shtml abgerufen am 11.01.2026} Die Folgende Abbildung gibt einen überblick über die Struktur der Modelierungssprache.
+Die Archimate 3.2 ist als aktuellste Version seit Oktober 2022 verfügbar. Sie wird von der Open Group veröffentlicht, eine Organisation mit über 900 Mitgliedern aus Wirtschaft und Forschung.\footnote{The Open Group, Liste der Mitglieder, online unter: https://reports.opengroup.org/all.shtml abgerufen am 11.01.2026} Die Folgende Abbildung gibt einen Überblick über die Struktur der Modelierungssprache.
 
 \begin{figure}[htb]
     \centering
@@ -251,24 +245,19 @@ Die Archimate 3.2 ist als aktuellste Version seit Oktober 2022 verfügbar. Sie w
     \label{fig:ArchimateArchitekturdarstellung}
 \end{figure}
  
-Die Modellierungssprache unterscheidet in ihrer dritten Version fünf Ebenen und zwei Architekturmodalitäten. Die oberste Ebene, die Strategieebene formuliert das Zielbild der Architektur auf dem Höchsten Abstraktionsniveau. Darunter  stehen die Geschäftsarchitektur mit ihrem Fokus auf Geschäftsabläufe den zugehörigen Informationen und Teilnehmer. Die Applikationsarchitektur, die die Anwendungen,Datenflüsse und Daten erfasst. Darunter beginnt die Technikarchitektur, die die physischen Infrastrukturobjekte, das Netzwerk und die Datenspeicher beschreiben. Bevor auf der Untersten Ebene neben physischer IT auch Warenflüsse detailliert beschrieben werden können. Diese fünf ebenen werden mit der „Motivation Extension"' und der „Implementation and Migration Extention"' um Aspekte, die die Transformation von Architekturen betrifft ergänzt.\footnote{Vgl. C. Schweda, Unternehmensweites Informationsmanagement - Die Rolle der Enterprise Architecture, Springer Gabler, 2024, S.257 ff}
+Die Modellierungssprache unterscheidet in ihrer dritten Version fünf Ebenen und zwei Architekturmodalitäten. Die oberste Ebene, die Strategieebene formuliert das Zielbild der Architektur auf dem höchsten Abstraktionsniveau. Darunter  stehen die Geschäftsarchitektur mit ihrem Fokus auf Geschäftsabläufe den zugehörigen Informationen und Teilnehmern und die Applikationsarchitektur, die die Anwendungen, Datenflüsse und Daten erfasst. Darunter beginnt die Technikarchitektur, die die physischen Infrastrukturobjekte, das Netzwerk und die Datenspeicher beschreiben, bevor auf der Untersten Ebene neben physischer IT auch Warenflüsse detailliert beschrieben werden können. Diese fünf Ebenen werden mit der „Motivation Extension"' und der „Implementation and Migration Extention"' um Aspekte, die die Transformation von Architekturen betrifft ergänzt.\footnote{Vgl. C. Schweda, Unternehmensweites Informationsmanagement - Die Rolle der Enterprise Architecture, Springer Gabler, 2024, S.257 ff}
 
 \subsection{Beispiel Entity-Relationsship-Modell}
 
-Das Entity Relationship-Modell (ERM) wurde im Jahr 1976 von Peter Chen vorgestellt. \footnote {P. Chen. 1976. The entity-relationship model—toward a unified view of data. ACM Trans. Database Syst. 1, 1 (March 1976), 9–36. https://doi.org/10.1145/320434.320440 }. Es enthält eine grafische Diagrammtechnik, die folgende Grundelemente besitzt.\footnote{K. Kurbel, Modellierung betrieblicher Informationssysteme – a. a. O. S. 76f} Die Entitäten(Entities), die Beziehungen(Relationships) und die Attribute. Entitäten stehen hier für unbestimmte Objekte der realen Welt. Die Beziehungen zwischen den Objekten verbinden die Entitäten. Dabei ist zu beachten, dass sowohl bei den Entitäten als auch bei den Beziehungen es sich nicht um eine Darstellung eines einzelnen individuellen Artefakt handelt sondern für alle Gleichartigen Objekte. Bei gleichartigen Beziehungen werden diese zu einem Beziehungstyp aggregiert. Die Attribute im Modell, dienen der genaueren Beschreibung. Bei sogenannten Schlüsselattributen handelt es sich um ein Attribut, dass ein  Objekt eindeutig identifiziert.
-
-\textcolor{red}{ Evtl. Beispiel Diagrammeinfügen einfügen}
-
-
-
+Das Entity-Relationship-Modell (ERM) wurde im Jahr 1976 von Peter Chen vorgestellt. \footnote {P. Chen, The entity-relationship model—toward a unified view of data. ACM Trans. Database Syst. 1, https://doi.org/10.1145/320434.320440, 1976, S.9-36 }. Es enthält eine grafische Diagrammtechnik, die folgende Grundelemente besitzt:\footnote{K. Kurbel, Modellierung betrieblicher Informationssysteme – a. a. O. S. 76f} Die Entitäten (Entities), die Beziehungen (Relationships) und Attribute. Entitäten stehen hier für unbestimmte Objekte der realen Welt. Die Beziehungen zwischen den Objekten verbinden die Entitäten. Dabei ist zu beachten, dass es sich sowohl bei den Entitäten als auch bei den Beziehungen nicht um eine Darstellung eines einzelnen individuellen Artefakts handelt sondern für alle Gleichartigen Objekte. Bei gleichartigen Beziehungen werden diese zu einem Beziehungstyp aggregiert. Die Attribute im Modell, dienen der genaueren Beschreibung. Bei sogenannten Schlüsselattributen handelt es sich um ein Attribut, das ein  Objekt eindeutig identifiziert.
 
 \section{Bekannte Limitationen von Modellierungssprachen an ausgewählten Beispielen}
 
-Bevor im nächsten Kapitel das Vorgehensmodell und die  Methodik der Arbeit beschrieben werden, wird an dieser Stelle noch auf die Limitationen von Modellierungssprachen eingegangen. Es finden sich in der wissenschaftlichen Literatur viele Veröffentlichungen, die sich mit den Grenzen der Sprachen befassen. So wurden bereits 2009 in einer Querschnittsstudie \footnote{P. Fettke, Ansätze der Informationsmodellierung und ihre betriebswirtschaftliche Bedeutung: Eine Untersuchung der Modellierungspraxis in Deutschland. Schmalenbachs Z betriebswirtsch Forsch 61, 550–580 (2009). https://doi.org/10.1007/BF03373665} festgestellt, dass Modellierer mehrere Probleme bei der Arbeit mit Modellierungssprachen kennen:
+Bevor im nächsten Kapitel das Vorgehensmodell und die  Methodik der Arbeit beschrieben werden, wird an dieser Stelle noch auf die Limitationen von Modellierungssprachen eingegangen. Es finden sich in der wissenschaftlichen Literatur viele Veröffentlichungen, die sich mit den Grenzen der Sprachen befassen. So wurden bereits 2009 in einer Querschnittsstudie \footnote{P. Fettke, Ansätze der Informationsmodellierung und ihre betriebswirtschaftliche Bedeutung: Eine Untersuchung der Modellierungspraxis in Deutschland. Schmalenbachs betriebswirtsch Forsch 61, . https://doi.org/10.1007/BF03373665, 2009, S.550-580} festgestellt, dass Modellierer mehrere Probleme bei der Arbeit mit Modellierungssprachen kennen:
 
 \begin{table}[h]
 \centering
-\caption{Probleme im Kontext von Modellierungssprachen und Werkzeugen in Anlehnung an Fettke, 2009}
+\caption{Probleme im Kontext von Modellierungssprachen und Werkzeugen, in Anlehnung an Fettke, 2009}
 \begin{tabular}{p{4cm} p{9cm}}
 \toprule
 \textbf{Kategorie} & \textbf{Probleme} \\
@@ -288,18 +277,15 @@ Komplexität \\
 
 \end{table}
 
-Die Tabelle zeigt die unzureichende Ausdruckskraft als Problem, dieses Problem bezieht sich meistens auf bestimmte Anwendungsbereiche. Ebenso wird bemängelt, das die Modellierungssprachen nicht sämtliche Aspekte von beispielsweise service Orientierter Software-Architektur abbilden können. Auch die unübersichtlichkeit und komplexität der Sprachen stellt, laut der Studie von Fettke ein Problem dar. Hinzu kommen die Probleme, die mit den Werkzeugen von Modellierungssprachen bestehen. Neben der hohen Komplexität der Tools tritt das Kostenrisiko auf,welches aufgrund holer Lizenzierungskosten besteht.  Hinzu kommt das Anbieterrisiko. Da es sich oftmals um kleinere Spezialisierte Unternehmen handelt, die eine Modellierungssoftware anbieten, besteht ein Ausfallrisiko, falls der Anbieter in Liquititätsschiwierigkeiten kommt. Weitere Veröffentlichungen befassen sich mit dem Problem der Nutzerfreundlichkeit und Werkzeugunterstützung der Modellierungssprachen im speziellen mit UML.\footnote{E. Planas \& J. Cabot, How are UML class diagrams built in practice? A usability study of two UML tools: Magicdraw and Papyrus, 2020, S.1,Computer Standards and Interfaces, https://www.sciencedirect.com/science/article/pii/S0920548918303659}. Ein weiteres Problemfeld sind Inkonsistenzen \footnote{Fettke, P. Unified modeling language 2.0. Wirtsch. Inform. 49, 55–58 (2007). https://doi.org/10.1007/s11576-007-0009-6} zwischen den Diagrammarten und die schwere Erlernbarkeit, die in engem Zusammenhang mit der Komplexität der UML Konstrukte und der Menge an unterschiedlichen Notationsvorgaben steht.\footnote{Sien, V. Y. (2011). An investigation of difficulties experienced by students developing unified modelling language (UML) class and sequence diagrams. Computer Science Education, 21(4), 317–342. https://doi.org/10.1080/08993408.2011.630127} Neben den generellen Limitationen und zu UML spezifisch untersuchten Limitationen bestehen auch für BPMN Probleme. Diese lassen sich auf auf folgende Punkte zusammenfassen.\footnote{Recker J (2010), "Opportunities and constraints: the current struggle with BPMN". Business Process Management Journal, Vol. 16 No. 1 pp. 181–201, doi: https://doi.org/10.1108/14637151011018001} Einer der Hauptkritikpunkte von Anwendern ist in der Studiue von Recker die schlechte Benutzbarkeit, insbesondere wenn es um die Identifikation von BPMN Modellen geht. So bestehen Schwierikeiten die Geschäftsmodellmodellierung von der Prozessmodellmodellierung zu unterscheiden. Ein weiterer Kritikpunkt ist für Anwender die fehlenden fortgeschrittenen Konzepte die Aufgaben wie das Herunterbrechen von Prozessen unterstützt. Auch werden von den Anwendern, so die weltweite Studie, die definierten Pools und Lanes nicht eindeutig verwendet. So Verwenden Nutzer die Notation sehr unterschiedlich. Teilweise werden diese zur Rollenbeschreibung oder zur Organisationsbeschreibung genutzt. Diese Unterschiedliche Nutzung erschwert die Verständigung zwischen unterschiedlichen Anwendern.
+Die Tabelle nennt die unzureichende Ausdruckskraft als Problem. Dieses Problem bezieht sich meistens auf bestimmte Anwendungsbereiche. Ebenso wird bemängelt, dass die Modellierungssprachen nicht sämtliche Aspekte von beispielsweise serviceorientierter Software-Architektur abbilden können. Auch die Unübersichtlichkeit und Komplexität der Sprachen stellt, laut der Studie von Fettke ein Problem dar. Hinzu kommen die Probleme, die mit den Werkzeugen von Modellierungssprachen bestehen.
 
+Neben der hohen Komplexität der Tools tritt das Kostenrisiko auf, welches aufgrund hoher Lizenzierungskosten besteht. Hinzu kommt das Anbieterrisiko. Da es sich oftmals um kleinere spezialisierte Unternehmen handelt, die eine Modellierungssoftware anbieten, besteht ein Ausfallrisiko, falls der Anbieter in Liquiditätsschwierigkeiten kommt. Weitere Veröffentlichungen befassen sich mit dem Problem der Nutzerfreundlichkeit und Werkzeugunterstützung der Modellierungssprachen, im speziellen mit UML.\footnote{E. Planas \& J. Cabot, How are UML class diagrams built in practice? A usability study of two UML tools: Magicdraw and Papyrus, Computer Standards and Interfaces, https://www.sciencedirect.com/science/article/pii/S0920548918303659, 2020, S.1}.
 
-\textcolor{red}{Limitation von Archimate }
-\textcolor{red}{Limitation von ERM}
+Ein weiteres Problemfeld sind Inkonsistenzen \footnote{P. Fettke, Unified modeling language 2.0. Wirtsch. Inform. 49,  https://doi.org/10.1007/s11576-007-0009-6, 2007, S.55–58} zwischen den Diagrammarten und die schwere Erlernbarkeit, die in engem Zusammenhang mit der Komplexität der UML-Konstrukte und der Menge an unterschiedlichen Notationsvorgaben steht.\footnote{V.Y. Sien, An investigation of difficulties experienced by students developing unified modelling language (UML) class and sequence diagrams, Computer Science Education, 21(4), https://doi.org/10.1080/08993408.2011.630127, 2011, S.317-342} Neben den generellen Limitationen und zu UML-spezifisch untersuchten Limitationen bestehen auch für BPMN Probleme. Diese lassen sich auf die nachfolgenden Punkte zusammenfassen.\footnote{J. Recker, Opportunities and constraints: the current struggle with BPMN, Business Process Management Journal, Vol. 16 No. 1 doi: https://doi.org/10.1108/14637151011018001, 2010, S.181-201} 
 
+Einer der Hauptkritikpunkte von Anwendern ist in der Studie von Recker die schlechte Benutzbarkeit, insbesondere wenn es um die Identifikation von BPMN Modellen geht. So bestehen Schwierigkeiten die Geschäftsmodellmodellierung von der Prozessmodellmodellierung zu unterscheiden. Ein weiterer Kritikpunkt ist für Anwender die fehlenden fortgeschrittenen Konzepte, die Aufgaben wie das Herunterbrechen von Prozessen unterstützen. Auch werden von den Anwendern, so die weltweite Studie, die definierten Pools und Lanes nicht eindeutig verwendet. Nutzer verwenden die Notation sehr unterschiedlich. Teilweise werden diese zur Rollenbeschreibung oder zur Organisationsbeschreibung genutzt. Diese unterschiedliche Nutzung erschwert die Verständigung zwischen unterschiedlichen Anwendern.
 
-
-
-
-
-Nachdem nun die wichtigsten Begrifflichkeiten erörtert sind widmet sich der nächste Abschnitt der Methodik der Qualifikationsarbeit. 
+Nachdem nun die wichtigsten Begrifflichkeiten und Limitationen erörtert sind, widmet sich der nächste Abschnitt der Methodik der Qualifikationsarbeit. 
 
 %%% Local Variables:
 %%% mode: latex
