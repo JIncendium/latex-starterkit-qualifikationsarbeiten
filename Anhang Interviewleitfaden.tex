@@ -1,0 +1,19 @@
+% !TEX root = main.tex
+% !TEX TS-program = pdflatex
+% !BIB program = biber
+
+
+\lstset{language=C}
+
+\chapter{Anhang Interviewleitfaden}
+\section{Interviewleitfaden}
+%\includepdf[pages=-]{Interviewleitfaden.pdf}
+
+\includepdf[
+    pages=-,
+    scale=0.88,
+    pagecommand={
+        \thispagestyle{scrheadings}
+        \markboth{\leftmark}{\leftmark}
+    }
+]{Interviewleitfaden.pdf}
